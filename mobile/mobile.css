@@ -91,3 +91,11 @@ a {
     margin-top: 4px;
 }
 
+.h1-home-mobile {
+    background-image: url(images/museum-kid-mobile.jpg);
+    height: 1080px;
+    background-color: greenyellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
