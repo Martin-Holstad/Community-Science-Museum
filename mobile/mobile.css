@@ -92,10 +92,45 @@ a {
 }
 
 .h1-home-mobile {
-    background-image: url(images/museum-kid-mobile.jpg);
-    height: 1080px;
-    background-color: greenyellow;
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: absolute;
+    text-align: start;
 }
+
+.h1-mobile {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 500px;
+    background-color: greenyellow;
+}
+
+.home-background-mobile {
+    margin-top: -40px;
+    text-align: center;
+}
+
+.visit-us {
+    text-align: center;
+}
+
+#visit-us-cta {
+    width: 850px;
+    height: 60px;
+    background-color: #D48F07;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.visit-us-image {
+    margin-top: 100px;
+}
+
+.visit-us-container {
+    margin-left: 45px;
+}
+
 
