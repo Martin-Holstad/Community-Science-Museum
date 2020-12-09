@@ -109,28 +109,46 @@ a {
     text-align: center;
 }
 
-.visit-us {
+.home-image-mobile {
+    width: 100%;
+}
+
+.visit-us, .guided-tours, .our-exhibiton {
     text-align: center;
 }
 
-#visit-us-cta {
+#visit-us-cta, #guided-tours-cta, #our-exhibiton-cta {
     width: 850px;
-    height: 60px;
+    height: 80px;
     background-color: #D48F07;
     border: none;
-    border-radius: 25px;
+    border-radius: 40px;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     padding: 8px;
+    margin-top: 50px;
 }
 
-.visit-us-image {
+.visit-us-image, .guided-tour-image, .our-exhibiton-image {
     margin-top: 100px;
+    width: 850px;
 }
 
 .visit-us-container {
-    margin-left: 45px;
+    margin-left: 10px;
+}
+
+.h2-visit-us, .h2-guided-tours, .h3-our-exhibiton {
+    text-align: start;
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+.text-visit-us, .text-guided-tours, .our-exhibiton-text {
+    text-align: start;
+    margin-left: 60px;
+    margin-top: 50px;
 }
 
 
