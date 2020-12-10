@@ -2,41 +2,41 @@
     font-size: 30px;
 }
 
-.visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
-width: 300px;
- }
-
 .visit-us-container, .our-exhibiton-container, .vritual-reality-container {
     display: flex;
-    text-align: center;
-    width: 830px;
-    margin-left: 1%;
-}
-.explore {
-    width: 395px;
+    justify-content: center;
+    width: 100%;
 }
 
 .visit-us {
-    margin-right: 60px;
-}
-
-
-.h2-guided-tours {
-    margin-left: 0px;
-}
-
-.text-guided-tours {
-    margin-left: 0px;
-    max-width: 350px;
-}
-
-#guided-tours-cta {
-    width: 350px;
-    margin-top: 2px;
-}
-
-.visit-us-container {
-    background-color: green;
     width: 100%;
     margin-left: 0px;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
+    width: 250px;
+    }
+    
+ #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
+     width: 250px;
+     margin-top: 20px;
+     height: 40px;
+}
+
+ .h2-visit-us, .h2-guided-tours, .h3-our-exhibiton, .h3-explore, .h4-lectures, .h5-vritual-reality, .h5-sheila-widnall-lecture, .h6-night-at-the-museum {
+
+    font-size: 20px;
+ }
+
+.text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
+    font-size: 18px;
+    max-width: 400px;
+}
+
+    
