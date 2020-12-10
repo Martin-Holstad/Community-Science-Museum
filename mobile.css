@@ -59,6 +59,7 @@ header {
     border-color: black;
     border-top: none;
     display: none;
+    background-color: #fff;
 }
 
 ul {
@@ -100,8 +101,9 @@ a {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 500px;
-    background-color: greenyellow;
+    margin-top: 250px;
+    color: #fff;
+    font-size: 40px;
 }
 
 .home-background-mobile {
@@ -113,11 +115,21 @@ a {
     width: 100%;
 }
 
-.visit-us, .guided-tours, .our-exhibiton {
+.home-text-container {
+    margin-top: 100px;
+    background-color:#E4E4E4;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.home-text {
+}
+
+.visit-us, .guided-tours, .our-exhibiton, .explore, .lectures, .vritual-reality, .sheila-Widnall-lecture, .night-at-the-museum {
     text-align: center;
 }
 
-#visit-us-cta, #guided-tours-cta, #our-exhibiton-cta {
+#visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
     width: 850px;
     height: 80px;
     background-color: #D48F07;
@@ -130,7 +142,7 @@ a {
     margin-top: 50px;
 }
 
-.visit-us-image, .guided-tour-image, .our-exhibiton-image {
+.visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
     margin-top: 100px;
     width: 850px;
 }
@@ -139,16 +151,38 @@ a {
     margin-left: 10px;
 }
 
-.h2-visit-us, .h2-guided-tours, .h3-our-exhibiton {
+.h2-visit-us, .h2-guided-tours, .h3-our-exhibiton, .h3-explore, .h4-lectures, .h5-vritual-reality, .h5-sheila-widnall-lecture, .h6-night-at-the-museum {
     text-align: start;
     font-size: 40px;
     margin-left: 60px;
 }
 
-.text-visit-us, .text-guided-tours, .our-exhibiton-text {
+.text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
     text-align: start;
     margin-left: 60px;
     margin-top: 50px;
 }
+
+.news-container {
+    background-color:  #D9A407;
+    height: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.news-text {
+    font-size: 60px;
+}
+
+.visit-us-top-image-container {
+}
+
+.visit-us-top-image {
+    width: 100%;
+}
+
+
+
+
 
 
