@@ -6,94 +6,56 @@ body {
     margin: 0px;
 }
 
+
 header {
+    display: flex;
     background-color: #D9A407;
+    height: 90px;
 }
 
-main {
-    width: 978px;
+nav {
+    margin: -20px;
+    background-color: hotpink;
+    width: 100%;
+    display:none
 }
 
-.header-mobile {
+ul {
     display: flex;
+    justify-content: space-around;
+    font-size: 20px
 }
 
-.logo-mobile-container {
-    margin-left: 20px;
-    margin-top: 2px;
-}
 
-.logo-mobile {
-    width: 200px;
-}
-
-.nav-bar-mobile {
+.nav-mobile {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
-.search-icon-mobile {
-    height: 50px;
-    width: 50px;
-    margin-top: 13px;
-    margin-right: 10px;
-    margin-left: 140px;
+.ul-mobile-container {
+    display:none;
 }
 
-.search-bar-container-mobile {
-    margin-top: 15px;
+.ul-mobile {
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    height: 200px;
 }
 
-.search-bar-mobile {
-    height: 40px;
-    width: 250px;
-}
 
 #hamburger-menu {
     display: none;
 }
 
-#menu-mobile {
-    position: absolute;
-    margin-top: 9px;
-    margin-left: 13px;
-    height: 379px;
-    border: black;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-top: none;
-    display: none;
-    background-color: #fff;
-}
-
-ul {
-    font-size: 40px;
-}
-
-li {
-    border-style: solid;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-color: #D9A407;
-}
-
-a {
-    text-decoration: none;
-}
-
-#hamburger-menu:checked ~ #menu-mobile {
+#hamburger-menu:checked ~ .ul-mobile-container {
     display: block;
-}
-
-.hamburger-icon-container {
-    margin-top: 13px;
-}
-
-.hamburger-icon {
-    height: 40px;
-    margin-left: 215px;
-    margin-top: 4px;
 }
 
 .h1-home-mobile {
@@ -105,9 +67,9 @@ a {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 250px;
+    margin-top: 23%;
     color: #fff;
-    font-size: 40px;
+    font-size: 15px;
 }
 
 .home-background-mobile {
@@ -122,60 +84,62 @@ a {
 .home-text-container {
     margin-top: 100px;
     background-color:#E4E4E4;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 .home-text {
 }
 
+
 .visit-us, .guided-tours, .our-exhibiton, .explore, .lectures, .vritual-reality, .sheila-Widnall-lecture, .night-at-the-museum {
     text-align: center;
+    
 }
 
 #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
-    width: 850px;
-    height: 80px;
+    width: 300px;
+    height: 40px;
     background-color: #D48F07;
     border: none;
     border-radius: 40px;
     color: #fff;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
     padding: 8px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
     margin-top: 100px;
-    width: 850px;
+    width: 210px;
 }
 
-.visit-us-container {
-    margin-left: 10px;
-}
 
 .h2-visit-us, .h2-guided-tours, .h3-our-exhibiton, .h3-explore, .h4-lectures, .h5-vritual-reality, .h5-sheila-widnall-lecture, .h6-night-at-the-museum {
     text-align: start;
-    font-size: 40px;
-    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
     text-align: start;
-    margin-left: 60px;
-    margin-top: 50px;
+    margin-top: 0px;
+    max-width: 450px;
 }
 
 .news-container {
     background-color:  #D9A407;
-    height: 120px;
+    height: 60px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 .news-text {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .visit-us-top-image-container {
@@ -184,6 +148,67 @@ a {
 .visit-us-top-image {
     width: 100%;
 }
+
+@media only screen and (min-width: 550px) and (max-width: 659px) {
+.h1-mobile {
+    font-size: 20px;
+ }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 829px) {
+    .h1-mobile {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+    .h1-mobile {
+        font-size: 30px;
+    }
+    .visit-us-container, .our-exhibiton-container, .vritual-reality-container {
+        display: flex;
+        text-align: center;
+        width: 830px;
+        margin-left: 1%;
+        background-color: hotpink;
+    }
+    .explore {
+        width: 395px;
+    }
+
+    .our-exhibiton-image {
+        width: 350px;
+    }
+
+    .visit-us {
+        margin-right: 60px;
+    }
+    .visit-us-image {
+        width: 350px;
+    }
+    .guided-tour-image {
+        width: 355px;
+    }
+
+    .h2-guided-tours {
+        margin-left: 0px;
+    }
+
+    .text-guided-tours {
+        margin-left: 0px;
+        max-width: 350px;
+    }
+
+    #guided-tours-cta {
+        width: 350px;
+        margin-top: 2px;
+    }
+}
+
+
+
+
+
 
 
 
