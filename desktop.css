@@ -1,8 +1,16 @@
 .h1-mobile {
-    font-size: 25px;
+    font-size: 20px;
+    top: -50px;
 }
 
-.home-text-container {
+.home-image-desktop {
+    display: block;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.home-image-mobile {
+    display: none;
 }
 
 .home-text {
@@ -134,6 +142,15 @@
     margin-right: 60px;
 }
 
+.top-image-explore {
+    display: none;
+}
+
+.top-image-explore-desktop {
+    display: block;
+    width: 100%;
+}
+
 .learn-about-science-minor-container, .for-teachers-minor-container, .for-researchers-minor-container {
     margin-left: 50px;
     margin-right: 50px;
@@ -176,6 +193,10 @@
 
 
 @media only screen and (min-width: 850px) {
+
+    .h1-mobile {
+        font-size: 25px;
+    } 
 
     .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
     width: 400px;

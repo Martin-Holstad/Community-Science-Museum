@@ -78,6 +78,10 @@ ul {
     text-align: center;
 }
 
+.home-image-desktop {
+    display: none;
+}
+
 .home-image-mobile {
     width: 100%;
     margin-top: -40px;
@@ -245,6 +249,10 @@ ul {
     position: relative;
 }
 
+.top-image-explore-desktop {
+    display: none;
+}
+
 .top-image-explore {
     width: 100%;
 }
@@ -283,6 +291,35 @@ ul {
 
 .contact-us-header {
     font-weight: bold;
+}
+
+.night-at-the-museum-background-container {
+    position: relative;
+}
+
+.night-at-the-museum-background-mobile {
+    width: 100%;
+}
+
+.h1-night-at-the-museum {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #fff;
+}
+
+.night-at-the-museum-top-text-container {
+    background-color: #E4E4E4;
+}
+
+.night-at-the-museum-top-text
+
+.night-at-the-museum-image {
+    width: 100px;
+}
+
+.h-night-at-the-museum {
+    width: 100px;
 }
 
 
@@ -335,8 +372,13 @@ ul {
             max-width: 400px;
         }
 
+        .h1-explore {
+            left: 30px;
+        }
+
         .learn-about-science-header, .for-teachers-header, .for-researchers-header {
             max-width: 350px;
+            margin-top: 100px;
         }
 
         .image-learn-about-science, .for-teachers-image, .for-researchers-image {
@@ -382,6 +424,11 @@ ul {
             width: 430px;
         }
 
+        .h1-explore {
+            font-weight: normal;
+            left: 30px;
+        }
+
         .learn-about-science-header, .for-teachers-header, .for-researchers-header {
             max-width: 430px;
             font-weight: normal;
@@ -411,9 +458,15 @@ ul {
         .learn-about-science-text, .for-teachers-text, .for-researchers-text {
             max-width: 500px;
         }
+
+        .h1-explore {
+            font-weight: normal;
+            font-size: 40px;
+            left: 30px;
+        }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1000px) {
+@media only screen and (min-width: 801px) {
     
         .learn-about-science-header, .for-teachers-header, .for-researchers-header {
             max-width: 700px;
@@ -426,6 +479,12 @@ ul {
 
         .learn-about-science-text, .for-teachers-text, .for-researchers-text {
             max-width: 700px;
+        }
+
+        .h1-explore {
+            font-weight: normal;
+            font-size: 40px;
+            left: 30px;
         }
 
 }
