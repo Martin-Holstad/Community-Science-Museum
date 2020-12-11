@@ -1,12 +1,13 @@
 .h1-mobile {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .home-text-container {
 }
 
 .home-text {
-    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .visit-us-container, .our-exhibiton-container, .vritual-reality-container {
@@ -18,9 +19,7 @@
 .night-at-the-museum-container {
     margin-left: 50px;
 }
-.center {
-   
-}
+
 
 .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
     width: 250px;
@@ -49,6 +48,7 @@
 .news-minor-container {
     margin-left: auto;
     margin-right: auto;
+    width: fit-content;
     height: 30px;
     background-color:  #D9A407;
     width: 540px;
@@ -56,6 +56,55 @@
 
 .news-text {
     margin-left: 10px;
+}
+
+.visit-us-desktop {
+    display: block;
+    width: 100%;
+}
+
+.visit-us-top-image {
+    display: none;
+}
+
+.h1-visit-us {
+    font-size: 30px;
+    left: 30px;
+     }
+
+.h1-visit-us-text {
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 850px) {
+
+    .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
+    width: 400px;
+    margin-right: 40px;
+    }
+        
+    #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
+    margin-right: 40px;
+    width: 350px;
+    
+    }
+    
+    .h2-visit-us, .h2-guided-tours, .h3-our-exhibiton, .h3-explore, .h4-lectures, .h5-vritual-reality, .h5-sheila-widnall-lecture, .h6-night-at-the-museum {
+    font-weight: normal;
+    }
+    
+    .text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
+    max-width: 250px;
+    }
+
+    .news-minor-container {
+        width: 830px;
+    }
+
+    .h1-visit-us {
+        bottom: 30px;
+         }
+
 }
 
 

@@ -10,7 +10,8 @@ body {
 header {
     display: flex;
     background-color: #D9A407;
-    height: 90px;
+    height: 45px;
+    margin-bottom: 0px;
 }
 
 nav {
@@ -73,12 +74,13 @@ ul {
 }
 
 .home-background-mobile {
-    margin-top: -40px;
+    margin-top: 40px;
     text-align: center;
 }
 
 .home-image-mobile {
     width: 100%;
+    margin-top: -40px;
 }
 
 .home-text-container {
@@ -108,7 +110,7 @@ ul {
     font-size: 13px;
     font-weight: bold;
     padding: 8px;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
@@ -151,57 +153,172 @@ ul {
     margin: 0px;
 }
 
+.visit-us-desktop {
+    display: none;
+}
+
 .visit-us-top-image {
     width: 100%;
 }
 
+.visit-us-text-container-large {
+    width: 100%;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.visit-us-text-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1-text-container { 
+    position: relative;
+}
+
+.h1-visit-us {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+}
+
+.h2-location, .h3-admission, .h4-Hours, .h5-accessibility, .h6-food-and-drink, .h7-shop {
+    font-size: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.visit-us-text {
+    max-width: 870px;
+}
+
+.top-image-container{
+    position: relative;
+}
+
+.top-image-our-exhibiton {
+    width: 100%;
+}
+
+.h1-our-exhibiton {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: #fff;
+}
+
+.cosmology-image {
+    width: 100%;
+}
+
+.exhibiton-container {
+    width: 100%;
+}
+
+.exhibiton-minor-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.h-exhibiton {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.cosmology-image, .evolution-image, .biology-image, .robotics-image, .ecology-image {
+    width: 250px;
+}
+
+.cosmology-text, .evolution-text, .biology-text, .robotics-text, .ecology-text {
+    width: 250px;
+}
+
+
 @media only screen and (min-width: 280px) and (max-width: 349px) {
     .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
-    width: 270px;
-    }
+        width: 270px;
+        }
 
     #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
-    width: 260px;
-     }
+        width: 260px;
+         }
 
-     .h1-mobile {
-         font-size: 12px;
-     }
+    .h1-mobile {
+        font-size: 12px;
+        }
+
+    .h1-visit-us {
+        font-size: 20px;
+        }
+
+    .h-exhibiton {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 100px;
+        }
 }
+
 
 @media only screen and (min-width: 350px) and (max-width: 459px) {
     .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
-    width: 340px;
-    }
+        width: 340px;
+        }
 
     #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
-    width: 330px;
-     }
+        width: 330px;
+        }
 
      .h1-mobile {
-         font-size: 15px;
-     }
+        font-size: 15px;
+        }
+
+    .h1-visit-us {
+        font-size: 20px;
+        }
+        .cosmology-image, .evolution-image, .biology-image, .robotics-image, .ecology-image {
+            width: 300px;
+        }
+        
+        .cosmology-text, .evolution-text, .biology-text, .robotics-text, .ecology-text {
+            width: 300px;
+        }
 }
 
 @media only screen and (min-width: 460px) and (max-width: 550px) {
 
     .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
-    width: 430px;
-    }
+        width: 430px;
+        }
     
     #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
-     width: 410px;
-     }
+        width: 410px;
+        }
 
-     .text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
+    .text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
     
-    font-size: 18px;
-    max-width: 400px;
-     }
+        font-size: 18px;
+        max-width: 400px;
+        }
 
-     .h1-mobile {
-         font-size: 20px;
-     }
+    .h1-mobile {
+        font-size: 20px;
+        }
+
+    .h1-visit-us {
+        font-size: 20px;
+        bottom: 25px;
+        }
+
+        .cosmology-image, .evolution-image, .biology-image, .robotics-image, .ecology-image {
+            width: 430px;
+        }
+        
+        .cosmology-text, .evolution-text, .biology-text, .robotics-text, .ecology-text {
+            width: 430px;
+        }
 }
 
 
