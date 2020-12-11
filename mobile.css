@@ -208,6 +208,10 @@ ul {
     color: #fff;
 }
 
+.top-image-our-exhibiton-desktop {
+    display: none;
+}
+
 .cosmology-image {
     width: 100%;
 }
@@ -215,6 +219,7 @@ ul {
 .exhibiton-container {
     width: 100%;
 }
+
 
 .exhibiton-minor-container {
     margin-left: auto;
@@ -234,6 +239,50 @@ ul {
 
 .cosmology-text, .evolution-text, .biology-text, .robotics-text, .ecology-text {
     width: 250px;
+}
+
+.explore-top-image-container {
+    position: relative;
+}
+
+.top-image-explore {
+    width: 100%;
+}
+
+.h1-explore {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: #fff;
+}
+
+.learn-about-science-container, .for-teachers-container, .for-researchers-container {
+    width: 100%;
+}
+
+.learn-about-science-minor-container, .for-teachers-minor-container, .for-researchers-minor-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn-about-science-header, .for-teachers-header, .for-researchers-header {
+    font-size: 20px;
+    max-width: 200px;
+    margin-top: 100px;
+}
+
+.image-learn-about-science, .for-teachers-image, .for-researchers-image {
+    width: 200px;
+}
+
+.learn-about-science-text, .for-teachers-text, .for-researchers-text {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.contact-us-header {
+    font-weight: bold;
 }
 
 
@@ -279,13 +328,26 @@ ul {
         font-size: 20px;
         }
         .cosmology-image, .evolution-image, .biology-image, .robotics-image, .ecology-image {
-            width: 300px;
+            width: 400px;
         }
         
         .cosmology-text, .evolution-text, .biology-text, .robotics-text, .ecology-text {
-            width: 300px;
+            max-width: 400px;
         }
-}
+
+        .learn-about-science-header, .for-teachers-header, .for-researchers-header {
+            max-width: 350px;
+        }
+
+        .image-learn-about-science, .for-teachers-image, .for-researchers-image {
+            width: 350px;
+        }
+
+        .learn-about-science-text, .for-teachers-text, .for-researchers-text {
+            max-width: 350px;
+            margin-right: 0px;
+        }
+        }
 
 @media only screen and (min-width: 460px) and (max-width: 550px) {
 
@@ -319,6 +381,53 @@ ul {
         .cosmology-text, .evolution-text, .biology-text, .robotics-text, .ecology-text {
             width: 430px;
         }
+
+        .learn-about-science-header, .for-teachers-header, .for-researchers-header {
+            max-width: 430px;
+            font-weight: normal;
+        }
+
+        .image-learn-about-science, .for-teachers-image, .for-researchers-image {
+            width: 430px;
+        }
+
+        .learn-about-science-text, .for-teachers-text, .for-researchers-text {
+            max-width: 400px;
+            margin-right: 30px;
+        }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 800px) {
+
+        .learn-about-science-header, .for-teachers-header, .for-researchers-header {
+             max-width: 500px;
+             font-weight: normal;
+        }
+
+        .image-learn-about-science, .for-teachers-image, .for-researchers-image {
+            width: 500px;
+        }
+
+        .learn-about-science-text, .for-teachers-text, .for-researchers-text {
+            max-width: 500px;
+        }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    
+        .learn-about-science-header, .for-teachers-header, .for-researchers-header {
+            max-width: 700px;
+            font-weight: normal;
+        }
+
+        .image-learn-about-science, .for-teachers-image, .for-researchers-image {
+            width: 700px;
+        }
+
+        .learn-about-science-text, .for-teachers-text, .for-researchers-text {
+            max-width: 700px;
+        }
+
 }
 
 
