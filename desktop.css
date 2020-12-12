@@ -191,6 +191,20 @@
     margin-top: 40px;
 }
 
+.night-at-the-museum-background-desktop {
+    display: block;
+    width: 100%;
+}
+
+.night-at-the-museum-background-mobile {
+    display: none;
+}
+
+.h1-night-at-the-museum {
+    font-size: 30px;
+    font-weight: normal;
+}
+
 
 @media only screen and (min-width: 850px) {
 
