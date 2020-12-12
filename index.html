@@ -13,38 +13,50 @@
     </head>
     <body>
         <header>
+            <div>
+                <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png" alt="logo of community science museum"></a>
+            </div>
             <nav>
                 <ul>
-                    <a href="index.html"><li>Home</li></a>
+                    <a href="index.html"><li class="navigation-underline">Home</li></a>
                     <a href="visit-us.html"><li>Visit us</li></a>
                     <a href="our-exhibiton.html"><li>Our exhibiton</li></a>
-                    <a href="guided-tours.html"><li>Guided tours</li></a>
-                    <a href="explore.html"><li>Explore</li></a>
-                    <a href="lectures.html"><li>Lectures</li></a>
-                    <a href="vritual reality"><li>Vritual reality</li></a>
                 </ul>
             </nav>
-            <section class="nav-mobile">
-                <div>
-                    <a href="index.html"><img src="logo/Logo-mobile.png" alt="logo of community science museum"></a>
+            <section>
+                <div class="drop-down-menu-container">
+                    <label class="drop-down-menu" for="drop-down-menu">Menu</label>
+                    <input type="checkbox" id="drop-down-menu">
+                    <div class="menu-container">
+                        <a href="visit-us.html"><li class="li-menu">Visit us</li></a>
+                        <a href="our-exhibiton.html"><li class="li-menu">Our exhibiton</li></a>
+                        <a href="guided-tours.html"><li class="li-menu">Guided tours</li></a>
+                        <a href="explore.html"><li class="li-menu">Explore</li></a>
+                        <a href="lectures.html"><li class="li-menu">Lectures</li></a>
+                        <a href="vritual-reality.html"><li class="li-menu">Vritual reality</li></a>
+                    </div>
                 </div>
-                    <label for="hamburger-menu"><img class="hamburger-icon" src="icons/hamburger-menu.png" alt="menu"></label>
-                    <input type="checkbox" id="hamburger-menu">   
-                <div class="ul-mobile-container">
-                    <ul class="ul-mobile">
-                        <a href="index.html"><li class="li-mobile">Home</li></a>
-                        <a href="visit-us.html"><li class="li-mobile">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-mobile">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-mobile">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-mobile">Explore</li></a>
-                        <a href="lectures.html"><li class="li-mobile">Lectures</li></a>
-                        <a href="vritual reality"><li class="li-mobile">Vritual reality</li></a>
-                    </ul>
+            </section>
+            <section class="header-mobile">
+                <div>
+                    <img class="logo-mobile" src="logo/Logo-mobile.png" alt="logo of community science museum">
+                </div>
+                <div class="drop-down-menu-container-mobile">
+                    <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png" alt=""></label>
+                    <input type="checkbox" id="drop-down-menu-mobile">
+                    <div class="menu-container-mobile">
+                        <a href="index.html"><li class="li-menu-mobile">Home</li></a>
+                        <a href="visit-us.html"><li class="li-menu-mobile">Visit us</li></a>
+                        <a href="our-exhibiton.html"><li class="li-menu-mobile">Our exhibiton</li></a>
+                        <a href="guided-tours.html"><li class="li-menu-mobile">Guided tours</li></a>
+                        <a href="explore.html"><li class="li-menu-mobile">Explore</li></a>
+                        <a href="lectures.html"><li class="li-menu-mobile">Lectures</li></a>
+                        <a href="vritual-reality.html"><li class="li-menu-mobile">Vritual reality</li></a>
+                    </div>
                 </div>
             </section>
         </header>
         <main>
-          <section>
                <div class="h1-mobile">
                    <h1>Community science museum</h1>
                </div>    
@@ -56,6 +68,33 @@
           <section class="home-text-container">
               <p class="home-text">Come join us at the Community Science Museum where we’re committed to making science accessible to all. Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself. The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
           </section>
+          <section class="time-table-container">
+              <div class="time-table-minor-container">
+                <div class="time-container">
+                    <p class="time-table-text-header">Opening hours</p>
+                    <p class="time-table-text">Monday: Closed</p>
+                    <p class="time-table-text">Tuesday: 10:00 – 16:00</p>
+                    <p class="time-table-text">Wednesday: 10:00 – 16:00</p>
+                    <p class="time-table-text">Thursday: 10:00 – 16:00</p>
+                </div>
+                <div class="time-container-two">
+                    <p class="time-table-text">Friday: 10:00 – 19:00</p>
+                    <p class="time-table-text">Saturday: 9:00 – 16:00</p>
+                    <p class="time-table-text">Sunday: 9:00 – 13:00</p>
+                </div>
+                <div class="tickets-container">
+                    <p class="time-table-text-header">Tickets</p>
+                    <p class="time-table-text">70 nok per person</p>
+                    <p class="time-table-text">40 nok for students</p>
+                    <p class="time-table-text">free entrance 0 - 15 years</p>
+                </div>
+              <div class="school-price-container">
+                <p class="time-table-text-header">School price</p>
+                <p class="time-table-text">150 nok for each class</p>
+            </div>
+            </div>
+        </section>
+      <section>
           <section class="visit-us-container">
               <div class="visit-us">
                   <div class="center">
@@ -137,6 +176,21 @@
             </section>
         </main>
         <footer>
+            <section class="footer-container">
+                <div class="footer-logo-container">
+                   <img src="images/Logo-desktop.png" alt="logo of community science museum"> 
+                </div>
+                <div class="footer-adress-container">
+                    <p class="footer-text-header">Adress</p>
+                    <p>The museum is located at</p>
+                    <p>Skoglia 60D 1812 Askim</p>
+                </div>
+                <div class="footer-contact-us-container">
+                    <p class="footer-text-header">Contac us</p>
+                    <p>Phone: 45436203</p>
+                    <p>Email: Csm@example.com</p>
+                </div>
+            </section>
         </footer>
     </body>
 </html>

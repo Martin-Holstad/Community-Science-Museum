@@ -1,6 +1,10 @@
+.navigation-underline {
+    text-decoration: underline;
+}
+
 .h1-mobile {
     font-size: 20px;
-    top: -50px;
+    top: 1%;
 }
 
 .home-image-desktop {
@@ -14,8 +18,44 @@
 }
 
 .home-text {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 530px;
+    font-size: 12px;
+    margin: auto;
+}
+
+.time-table-container {
+    margin-top: 40px;
+    display: block;
+}
+
+.time-table-minor-container {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.time-table-text-header {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.time-table-text {
+    font-size: 15px;
+}
+
+.time-container, .time-container-two {
+    margin-right: 20px;
+}
+
+.tickets-container, .school-price-container {
+    margin-left: 20px;
+}
+
+.tickets-container {
+    border-left: solid;
+    padding-left: 40px;
+    border-color: #D9A407;
 }
 
 .visit-us-container, .our-exhibiton-container, .vritual-reality-container {
@@ -239,6 +279,72 @@
     height: 134px;
 }
 
+.lectures-image-desktop {
+    display: block;
+    width: 100%;
+}
+
+.lectures-image {
+    display: none;
+}
+
+.h1-lectures {
+    font-weight: normal;
+    left: 20px;
+}
+
+.lectures-container {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jhon-wiliams-minor-container {
+    margin-left: 100px;
+}
+
+.jhon-wiliams-top-text {
+    margin-bottom: 82px;
+    max-width: 200px;
+}
+
+.sheila-image, .jhon-wiliams-image {
+    width: 200px;
+}
+
+.sheila-text, .jhon-wiliams-text {
+    max-width: 200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container {
+    height: 120px;
+    padding: 0px;
+}
+
+.footer-logo-container {
+    margin-top: 35px;
+}
+
+.footer-adress-container {
+    margin-top: 0px;
+}
+
+.footer-contact-us-container {
+    margin-top: 0px;
+}
+@media only screen and (min-width: 550px) and (max-width: 849px) {
+
+    .time-table-container {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 700px) {
 
     .niel-armstrong-picture, .jurassic-park-image, .vritual-reality-kids-image {
@@ -253,12 +359,33 @@
     .vritual-reality-kids-flex-container {
         margin-right: 400px;
     }
+
+    .sheila-image, .jhon-wiliams-image {
+        width: 250px;
+    }
+    
+    .sheila-text, .jhon-wiliams-text {
+        max-width: 250px;
+    }
+    
+    .jhon-wiliams-top-text {
+        max-width: 250px;
+    }
+
+    .h1-lectures {
+        font-size: 30px;
+    }
 }
+
 
 @media only screen and (min-width: 850px) {
 
     .h1-mobile {
         font-size: 25px;
+    } 
+
+    .home-text {
+        max-width: 830px;
     } 
 
     .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
@@ -300,6 +427,23 @@
     .h1-our-exhibiton {
         font-size: 50px;
         left: 30px;
+    }
+
+    .sheila-image, .jhon-wiliams-image {
+        width: 350px;
+    }
+    
+    .sheila-text, .jhon-wiliams-text {
+        max-width: 350px;
+    }
+    
+    .jhon-wiliams-top-text {
+        max-width: 350px;
+        margin-bottom: 65px;
+    }
+
+    .h1-lectures {
+        font-size: 40px;
     }
 
 }

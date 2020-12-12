@@ -6,58 +6,143 @@ body {
     margin: 0px;
 }
 
-
 header {
     display: flex;
+    justify-items: start;
     background-color: #D9A407;
     height: 45px;
     margin-bottom: 0px;
 }
 
-nav {
-    margin: -20px;
-    background-color: hotpink;
-    width: 100%;
-    display:none
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px
-}
-
-
-.nav-mobile {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-}
-
-.ul-mobile-container {
-    display:none;
-}
-
-.ul-mobile {
-    background-color: #fff;
-    display: block;
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    height: 200px;
-}
-
-
-#hamburger-menu {
+.logo-desktop {
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
     display: none;
 }
 
-#hamburger-menu:checked ~ .ul-mobile-container {
+
+nav {
+    margin-top: 10px;
+    display: none;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+ul {
+    font-size: 20px;
+    margin: 0px;
+}
+
+li {
+    display: inline;
+    margin-left: 80px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.drop-down-menu-container {
+    margin-top: 10px;
+}
+
+.drop-down-menu {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 80px;
+    display: none;
+}
+
+.drop-down-menu:hover {
+    text-decoration: underline;
+}
+
+#drop-down-menu {
+    display: none;
+}
+
+#drop-down-menu:checked ~ .menu-container  {
     display: block;
 }
+
+.menu-container {
+    top: 46px;
+    left: 380px;
+    width: 140px;
+    display: block;
+    position: absolute;
+    border-color:  #D9A407;
+    border-style: solid;
+    display: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.li-menu {
+    margin-top: 2.5px;
+    margin-bottom: 4.5;
+    color: black;
+}
+
+.header-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-mobile {
+    margin-top: 10px;
+}
+
+.drop-down-menu-container-mobile {
+    margin-top: 10px;
+}
+
+.hamburger-icon {
+    margin-left: 10px;
+}
+
+#drop-down-menu-mobile {
+    display: none;
+}
+
+.menu-container-mobile {
+    position: absolute;
+    display: none;
+    top: 46px;
+    right: 0px;
+    border-color: #D9A407;
+    border-style: solid;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.hamburger-icon {
+    margin-right: 20px;
+}
+
+.li-menu-mobile {
+    display: block;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-style: solid;
+    border-color: #D9A407;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#drop-down-menu-mobile:checked ~ .menu-container-mobile {
+    display: block;
+}
+
 
 .h1-home-mobile {
     position: absolute;
@@ -68,9 +153,9 @@ ul {
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: 23%;
+    margin-top: 15%;
     color: #fff;
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .home-background-mobile {
@@ -98,6 +183,10 @@ ul {
 
 .home-text {
     font-size: 10px;
+}
+
+.time-table-container {
+    display: none;
 }
 
 .visit-us, .guided-tours, .our-exhibiton, .explore, .lectures, .vritual-reality, .sheila-Widnall-lecture, .night-at-the-museum {
@@ -159,10 +248,12 @@ ul {
 
 .visit-us-desktop {
     display: none;
+    z-index: 2;
 }
 
 .visit-us-top-image {
     width: 100%;
+    z-index: 2;
 }
 
 .visit-us-text-container-large {
@@ -251,10 +342,12 @@ ul {
 
 .top-image-explore-desktop {
     display: none;
+    z-index: 2;
 }
 
 .top-image-explore {
     width: 100%;
+    z-index: 2;
 }
 
 .h1-explore {
@@ -393,6 +486,78 @@ ul {
     margin-top: 40px;
 }
 
+.top-image-lecture-container {
+    position: relative;
+}
+
+.lectures-image {
+    width: 100%;
+}
+
+.h1-lectures {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+}
+
+.lectures-container {
+    width: 100%;
+}
+
+.lectures-image-desktop {
+    display: none;
+}
+
+.sheila-minor-container, .jhon-wiliams-minor-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.sheila-image, .jhon-wiliams-image {
+    width: 200px;
+}
+
+.sheila-text, .jhon-wiliams-text {
+    max-width: 200px;
+}
+
+.jhon-wiliams-top-text {
+    max-width: 200px;
+}
+
+.sheila-text-header, .jhon-wiliams-text-header {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    padding-top: 50px;
+    background-color: #E4E4E4;
+}
+
+.footer-logo-container {
+    text-align: center;
+}
+
+.footer-adress-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-contact-us-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-text-header {
+    font-weight: bold;
+}
 
 @media only screen and (min-width: 280px) and (max-width: 349px) {
     .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
@@ -404,7 +569,7 @@ ul {
          }
 
     .h1-mobile {
-        font-size: 12px;
+        font-size: 9px;
         }
 
     .h1-visit-us {
@@ -424,6 +589,18 @@ ul {
         .niel-armstrong-texts, .jurassic-park-text, .vritual-reality-kids-texts {
             max-width: 260px;
         }
+
+        .sheila-image, .jhon-wiliams-image {
+            width: 250px;
+        }
+        
+        .sheila-text, .jhon-wiliams-text {
+            max-width: 250px;
+        }
+        
+        .jhon-wiliams-top-text {
+            max-width: 250px;
+        }
 }
 
 
@@ -437,7 +614,7 @@ ul {
         }
 
      .h1-mobile {
-        font-size: 15px;
+        font-size: 12px;
         }
 
     .h1-visit-us {
@@ -476,6 +653,18 @@ ul {
         .niel-armstrong-texts, .jurassic-park-text, .vritual-reality-kids-texts {
             max-width: 330px;
         }
+
+        .sheila-image, .jhon-wiliams-image {
+            width: 300px;
+        }
+        
+        .sheila-text, .jhon-wiliams-text {
+            max-width: 300px;
+        }
+        
+        .jhon-wiliams-top-text {
+            max-width: 300px;
+        }
         }
 
 @media only screen and (min-width: 460px) and (max-width: 550px) {
@@ -495,8 +684,12 @@ ul {
         }
 
     .h1-mobile {
-        font-size: 20px;
+        font-size: 15px;
         }
+
+    .home-text {
+        font-size: 12px;
+    }
 
     .h1-visit-us {
         font-size: 20px;
@@ -537,6 +730,19 @@ ul {
         .niel-armstrong-texts, .jurassic-park-text, .vritual-reality-kids-texts {
             max-width: 400px;
         }
+
+        .sheila-image, .jhon-wiliams-image {
+            width: 400px;
+        }
+        
+        .sheila-text, .jhon-wiliams-text {
+            max-width: 400px;
+        }
+        
+        .jhon-wiliams-top-text {
+            max-width: 400px;
+        }
+  
 }
 
 
@@ -565,7 +771,58 @@ ul {
             font-size: 40px;
             left: 30px;
         }
+
+        .sheila-image, .jhon-wiliams-image {
+            width: 500px;
+        }
+        
+        .sheila-text, .jhon-wiliams-text {
+            max-width: 500px;
+        }
+        
+        .jhon-wiliams-top-text {
+            max-width: 500px;
+        }
+
+        nav {
+            display: block;
+        }
+
+        li {
+            margin-left: 20px;
+        }
+
+        .li-menu {
+            display: block;
+            font-size: 20px;
+            text-align: center;
+            margin: 0px;
+            margin-top: 7px;
+            border-bottom: solid;
+            border-color: #D9A407;
+        }
+
+        .drop-down-menu {
+            display: block;
+            margin-left: 20px;
+
+        }
+    
+        .logo-desktop {
+            display: block;
+            margin-left: 10px;
+        }
+      
+        .logo-mobile {
+            display: none;
+        }
+
+        .header-mobile {
+            display: none;
+        }
+
 }
+
 
 @media only screen and (min-width: 801px) {
     
@@ -587,6 +844,46 @@ ul {
             font-size: 40px;
             left: 30px;
         }
+
+        nav {
+            display: block;
+        }
+
+        .li-menu {
+            display: block;
+            background-color: #fff;
+            color: black;
+            margin: 0px;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 7px;
+            border-bottom: solid;
+            border-color: #D9A407;
+        }
+
+        .menu-container {
+            left: 620px;
+        }
+
+        .drop-down-menu {
+            display: block;
+            margin-left: 80px;
+
+        }
+    
+        .logo-desktop {
+            display: block;
+            margin-left: 10px;
+        }
+
+        .logo-mobile {
+            display: none;
+        }
+
+        .header-mobile {
+            display: none;
+        }
+
 
 }
 

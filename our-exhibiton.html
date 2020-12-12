@@ -13,35 +13,47 @@
     </head>
     <body>
         <header>
+            <div>
+                <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png" alt="logo of community science museum"></a>
+            </div>
             <nav>
                 <ul>
                     <a href="index.html"><li>Home</li></a>
                     <a href="visit-us.html"><li>Visit us</li></a>
-                    <a href="our-exhibiton.html"><li>Our exhibiton</li></a>
-                    <a href="guided-tours.html"><li>Guided tours</li></a>
-                    <a href="explore.html"><li>Explore</li></a>
-                    <a href="lectures.html"><li>Lectures</li></a>
-                    <a href="vritual reality"><li>Vritual reality</li></a>
+                    <a href="our-exhibiton.html"><li class="navigation-underline">Our exhibiton</li></a>
                 </ul>
             </nav>
-            <section class="nav-mobile">
-                <div>
-                    <a href="index.html"><img src="logo/Logo-mobile.png" alt="logo of community science museum"></a>
-                </div>
-                    <label for="hamburger-menu"><img class="hamburger-icon" src="icons/hamburger-menu.png" alt="menu"></label>
-                    <input type="checkbox" id="hamburger-menu">   
-                <div class="ul-mobile-container">
-                    <ul class="ul-mobile">
-                        <a href="index.html"><li class="li-mobile">Home</li></a>
-                        <a href="visit-us.html"><li class="li-mobile">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-mobile">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-mobile">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-mobile">Explore</li></a>
-                        <a href="lectures.html"><li class="li-mobile">Lectures</li></a>
-                        <a href="vritual reality"><li class="li-mobile">Vritual reality</li></a>
-                    </ul>
+            <section>
+                <div class="drop-down-menu-container">
+                    <label class="drop-down-menu" for="drop-down-menu">Menu</label>
+                    <input type="checkbox" id="drop-down-menu">
+                    <div class="menu-container">
+                        <a href="visit-us.html"><li class="li-menu">Visit us</li></a>
+                        <a href="our-exhibiton.html"><li class="li-menu">Our exhibiton</li></a>
+                        <a href="guided-tours.html"><li class="li-menu">Guided tours</li></a>
+                        <a href="explore.html"><li class="li-menu">Explore</li></a>
+                        <a href="lectures.html"><li class="li-menu">Lectures</li></a>
+                        <a href="vritual-reality.html"><li class="li-menu">Vritual reality</li></a>
+                    </div>
                 </div>
             </section>
+            <section class="header-mobile">
+                <div>
+                    <a href="index.html"><img class="logo-mobile" src="logo/Logo-mobile.png" alt="logo of community science museum"></a>
+                </div>
+                <div class="drop-down-menu-container-mobile">
+                    <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png" alt=""></label>
+                    <input type="checkbox" id="drop-down-menu-mobile">
+                    <div class="menu-container-mobile">
+                        <a href="index.html"><li class="li-menu-mobile">Home</li></a>
+                        <a href="visit-us.html"><li class="li-menu-mobile">Visit us</li></a>
+                        <a href="our-exhibiton.html"><li class="li-menu-mobile">Our exhibiton</li></a>
+                        <a href="guided-tours.html"><li class="li-menu-mobile">Guided tours</li></a>
+                        <a href="explore.html"><li class="li-menu-mobile">Explore</li></a>
+                        <a href="lectures.html"><li class="li-menu-mobile">Lectures</li></a>
+                        <a href="vritual reality"><li class="li-menu-mobile">Vritual reality</li></a>
+                    </div>
+                </div>
         </header>
         <main>
             <section>
@@ -109,6 +121,21 @@
             </section>
         </main>
         <footer>
+            <section class="footer-container">
+                <div class="footer-logo-container">
+                   <img src="images/Logo-desktop.png" alt="logo of community science museum"> 
+                </div>
+                <div class="footer-adress-container">
+                    <p class="footer-text-header">Adress</p>
+                    <p>The museum is located at</p>
+                    <p>Skoglia 60D 1812 Askim</p>
+                </div>
+                <div class="footer-contact-us-container">
+                    <p class="footer-text-header">Contac us</p>
+                    <p>Phone: 45436203</p>
+                    <p>Email: Csm@example.com</p>
+                </div>
+            </section>
         </footer>
     </body>
 </html>
