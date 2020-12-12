@@ -317,6 +317,38 @@
     max-width: 200px;
 }
 
+.guided-tours-header-image {
+    display: none;
+}
+
+.h1-guided-tours {
+    font-weight: normal;
+    left: 30px;
+    font-size: 30px;
+}
+
+.space-and-reptiles-container {
+    display: flex;
+}
+
+.guided-tours-header-image-desktop {
+    display: block;
+    width: 100%;
+}
+
+.reptiles-guide-image {
+    height: 250px;
+    width: 370px;
+}
+
+.space-guide-image {
+    width: 370px;
+}
+
+.reptiles-container {
+    margin-left: 60px;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -338,6 +370,7 @@
 .footer-contact-us-container {
     margin-top: 0px;
 }
+
 @media only screen and (min-width: 550px) and (max-width: 849px) {
 
     .time-table-container {
@@ -445,7 +478,6 @@
     .h1-lectures {
         font-size: 40px;
     }
-
 }
 
 

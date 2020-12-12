@@ -559,6 +559,50 @@ a {
     font-weight: bold;
 }
 
+.guided-tours-header-container{
+    position: relative;
+}
+
+.guided-tours-header-image {
+    width: 100%;
+}
+
+.h1-guided-tours {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+}
+
+.guided-tours-header-image-desktop {
+    display: none;
+}
+
+.space-and-reptiles-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.space-guide-image, .reptiles-guide-image {
+    width: 230px;
+    margin-top: 100px;
+}
+
+.space-guide-header, .reptiles-guide-header {
+    font-size: 20px;
+}
+
+.space-guide-text-header, .reptiles-guide-text-header {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.space-guide-text, .reptiles-guide-text {
+    margin-top: 20px;
+}
+
 @media only screen and (min-width: 280px) and (max-width: 349px) {
     .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
         width: 270px;
@@ -600,6 +644,11 @@ a {
         
         .jhon-wiliams-top-text {
             max-width: 250px;
+        }
+
+        .space-guide-image, .reptiles-guide-image {
+            width: 250px;
+            margin-top: 100px;
         }
 }
 
@@ -665,6 +714,12 @@ a {
         .jhon-wiliams-top-text {
             max-width: 300px;
         }
+
+        .space-guide-image, .reptiles-guide-image {
+            width: 320px;
+            margin-top: 100px;
+        }
+
         }
 
 @media only screen and (min-width: 460px) and (max-width: 550px) {
@@ -741,6 +796,11 @@ a {
         
         .jhon-wiliams-top-text {
             max-width: 400px;
+        }
+
+        .space-guide-image, .reptiles-guide-image {
+            width: 400px;
+            margin-top: 100px;
         }
   
 }
@@ -819,6 +879,11 @@ a {
 
         .header-mobile {
             display: none;
+        }
+
+        .space-guide-image, .reptiles-guide-image {
+            width: 500px;
+            margin-top: 100px;
         }
 
 }
