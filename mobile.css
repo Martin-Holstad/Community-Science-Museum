@@ -310,6 +310,8 @@ ul {
 
 .museum-container {
     width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .night-at-the-museum-background-desktop {
