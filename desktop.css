@@ -205,6 +205,55 @@
     font-weight: normal;
 }
 
+.vritual-reality-mobile {
+    display: none;
+}
+
+.vritual-reality-desktop {
+    display: block;
+    width: 100%;
+}
+
+.h1-vritual-reality {
+    font-weight: normal;
+    left: 30px;
+    font-size: 30px;
+}
+
+.vritual-reality-flex {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jurassic-park-container {
+    margin-left: 100px;
+}
+
+.vritual-reality-kids-flex-container {
+    margin-right: 300px;
+}
+
+.jurassic-park-image {
+    height: 134px;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .niel-armstrong-picture, .jurassic-park-image, .vritual-reality-kids-image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .niel-armstrong-texts, .jurassic-park-text, .vritual-reality-kids-texts {
+        max-width: 300px;
+    }
+
+    .vritual-reality-kids-flex-container {
+        margin-right: 400px;
+    }
+}
 
 @media only screen and (min-width: 850px) {
 
@@ -241,6 +290,7 @@
     
     .evolution-image, .robotics-image, .cosmology-image, .biology-image, .ecology-image {
         width: 400px;
+        height: 300px;
     }
 
     .ecology-text, .robotics-text, .biology-text, .evolution-text, .cosmology-text {
