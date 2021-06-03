@@ -66,11 +66,7 @@
 .vritual-reality-container {
   display: flex;
   justify-content: center;
-  margin-left: 50px;
-}
-
-.night-at-the-museum-container {
-  margin-left: 50px;
+  gap: 100px;
 }
 
 .visit-us-image,
@@ -81,8 +77,7 @@
 .vritual-reality-image,
 .sheila-Widnall-lecture-image,
 .night-at-the-museum-image {
-  width: 250px;
-  margin-right: 40px;
+  width: 220px;
 }
 
 #visit-us-cta,
@@ -93,8 +88,8 @@
 #vritual-reality-cta,
 #sheila-Widnall-lecture-cta,
 #night-at-the-museum-cta {
-  margin-right: 40px;
-  width: 250px;
+  width: 220px;
+  cursor: pointer;
 }
 
 .h2-visit-us,
@@ -116,21 +111,20 @@
 .vritual-reality-text,
 .sheila-Widnall-lecture-text,
 .night-at-the-museum-text {
-  max-width: 250px;
+  max-width: 220px;
 }
 
 .news-container {
+  display: grid;
+  justify-content: center;
   margin-top: 60px;
   background-color: #fff;
 }
 
 .news-minor-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content;
   height: 30px;
+  width: 500px;
   background-color: #d9a407;
-  width: 540px;
 }
 
 .news-text {
@@ -173,10 +167,6 @@
   font-weight: normal;
 }
 
-.exhibiton-container {
-  width: 100%;
-}
-
 .exhibiton-minor-container {
   margin-top: 100px;
 }
@@ -186,6 +176,7 @@
 .ecology-flex-container {
   display: flex;
   width: fit-content;
+  gap: 30px;
   margin: auto;
 }
 
@@ -193,6 +184,7 @@
 .robotics-flex-container {
   display: flex;
   width: fit-content;
+  gap: 30px;
   margin: auto;
   flex-direction: row-reverse;
 }
@@ -213,13 +205,6 @@
 .evolution-image,
 .robotics-image {
   margin-top: 65px;
-  margin-left: 60px;
-}
-
-.cosmology-image,
-.biology-image,
-.ecology-image {
-  margin-right: 60px;
 }
 
 .top-image-explore {
@@ -315,17 +300,13 @@
 
 .vritual-reality-flex {
   display: flex;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.jurassic-park-container {
-  margin-left: 100px;
+  justify-content: center;
+  gap: 80px;
 }
 
 .vritual-reality-kids-flex-container {
-  margin-right: 300px;
+  display: grid;
+  justify-content: center;
 }
 
 .jurassic-park-image {
@@ -349,7 +330,7 @@
 .lectures-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 350px 350px;
   gap: 100px;
 }
 
@@ -389,12 +370,12 @@
 }
 
 .reptiles-guide-image {
-  height: 250px;
-  width: 370px;
+  height: 235px;
+  width: 350px;
 }
 
 .space-guide-image {
-  width: 370px;
+  width: 350px;
 }
 
 .reptiles-container {
@@ -426,6 +407,18 @@
 @media only screen and (min-width: 550px) and (max-width: 849px) {
   .time-table-container {
     display: none;
+  }
+  .lectures-container {
+    grid-template-columns: 250px 250px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .visit-us-container,
+  .our-exhibiton-container,
+  .vritual-reality-container {
+    gap: 40px;
   }
 }
 
@@ -483,8 +476,7 @@
   .vritual-reality-image,
   .sheila-Widnall-lecture-image,
   .night-at-the-museum-image {
-    width: 400px;
-    margin-right: 40px;
+    width: 300px;
   }
 
   #visit-us-cta,
@@ -495,8 +487,7 @@
   #vritual-reality-cta,
   #sheila-Widnall-lecture-cta,
   #night-at-the-museum-cta {
-    margin-right: 40px;
-    width: 350px;
+    width: 300px;
   }
 
   .h2-visit-us,
