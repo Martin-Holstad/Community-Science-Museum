@@ -1,487 +1,572 @@
 .navigation-underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .h1-mobile {
-    font-size: 20px;
-    top: 1%;
+  font-size: 20px;
+  top: 1%;
 }
 
 .home-image-desktop {
-    display: block;
-    width: 100%;
-    margin-top: -40px;
+  display: block;
+  width: 100%;
+  margin-top: -40px;
 }
 
 .home-image-mobile {
-    display: none;
+  display: none;
 }
 
 .home-text {
-    max-width: 530px;
-    font-size: 12px;
-    margin: auto;
+  max-width: 530px;
+  font-size: 12px;
+  margin: auto;
 }
 
 .time-table-container {
-    margin-top: 40px;
-    display: block;
+  margin-top: 40px;
+  display: block;
 }
 
 .time-table-minor-container {
-    display: flex;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .time-table-text-header {
-    font-size: 15px;
-    font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .time-table-text {
-    font-size: 15px;
+  font-size: 15px;
 }
 
-.time-container, .time-container-two {
-    margin-right: 20px;
+.time-container,
+.time-container-two {
+  margin-right: 20px;
 }
 
-.tickets-container, .school-price-container {
-    margin-left: 20px;
+.tickets-container,
+.school-price-container {
+  margin-left: 20px;
 }
 
 .tickets-container {
-    border-left: solid;
-    padding-left: 40px;
-    border-color: #D9A407;
+  border-left: solid;
+  padding-left: 40px;
+  border-color: #d9a407;
 }
 
-.visit-us-container, .our-exhibiton-container, .vritual-reality-container {
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
+.visit-us-container,
+.our-exhibiton-container,
+.vritual-reality-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
 }
 
 .night-at-the-museum-container {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
-
-.visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
-    width: 250px;
-    margin-right: 40px;
+.visit-us-image,
+.guided-tour-image,
+.our-exhibiton-image,
+.explore-image,
+.letures-image,
+.vritual-reality-image,
+.sheila-Widnall-lecture-image,
+.night-at-the-museum-image {
+  width: 250px;
+  margin-right: 40px;
 }
-    
- #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
-     margin-right: 40px;
-     width: 250px;
 
- }
+#visit-us-cta,
+#guided-tours-cta,
+#our-exhibiton-cta,
+#explore-cta,
+#lectures-cta,
+#vritual-reality-cta,
+#sheila-Widnall-lecture-cta,
+#night-at-the-museum-cta {
+  margin-right: 40px;
+  width: 250px;
+}
 
- .h2-visit-us, .h2-guided-tours, .h3-our-exhibiton, .h3-explore, .h4-lectures, .h5-vritual-reality, .h5-sheila-widnall-lecture, .h6-night-at-the-museum {
-     font-weight: normal;
- }
+.h2-visit-us,
+.h2-guided-tours,
+.h3-our-exhibiton,
+.h3-explore,
+.h4-lectures,
+.h5-vritual-reality,
+.h5-sheila-widnall-lecture,
+.h6-night-at-the-museum {
+  font-weight: normal;
+}
 
-.text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
-    max-width: 250px;
+.text-visit-us,
+.text-guided-tours,
+.our-exhibiton-text,
+.explore-text,
+.lectures-text,
+.vritual-reality-text,
+.sheila-Widnall-lecture-text,
+.night-at-the-museum-text {
+  max-width: 250px;
 }
 
 .news-container {
-    margin-top: 60px;
-    background-color: #fff;
+  margin-top: 60px;
+  background-color: #fff;
 }
 
 .news-minor-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    height: 30px;
-    background-color:  #D9A407;
-    width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  height: 30px;
+  background-color: #d9a407;
+  width: 540px;
 }
 
 .news-text {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .visit-us-desktop {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .visit-us-top-image {
-    display: none;
+  display: none;
 }
 
 .h1-visit-us {
-    font-size: 30px;
-    left: 30px;
-     }
+  font-size: 30px;
+  left: 30px;
+}
 
 .h1-visit-us-text {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .top-image-our-exhibiton {
-    display: none;
+  display: none;
 }
 
 .top-image-our-exhibiton-desktop {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .h1-our-exhibiton {
-    font-size: 25px;
-    font-weight: normal;
+  font-size: 25px;
+  font-weight: normal;
 }
 
 .h-exhibiton {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .exhibiton-container {
-    width: 100%;
+  width: 100%;
 }
 
 .exhibiton-minor-container {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
-
-.cosmology-flex-container, .biology-flex-container, .ecology-flex-container {
-    display: flex;
-    width: fit-content;
-    margin: auto;
+.cosmology-flex-container,
+.biology-flex-container,
+.ecology-flex-container {
+  display: flex;
+  width: fit-content;
+  margin: auto;
 }
 
-.evolution-flex-container, .robotics-flex-container {
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    flex-direction: row-reverse;
+.evolution-flex-container,
+.robotics-flex-container {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  flex-direction: row-reverse;
 }
 
 .h-exhibiton {
-    margin-top: 0px;
-    text-align: start;
+  margin-top: 0px;
+  text-align: start;
 }
 
-.ecology-text, .robotics-text, .biology-text, .evolution-text, .cosmology-text {
-    margin-top: 40px;
+.ecology-text,
+.robotics-text,
+.biology-text,
+.evolution-text,
+.cosmology-text {
+  margin-top: 40px;
 }
 
-.evolution-image, .robotics-image {
-    margin-top: 65px;
-    margin-left: 60px;
+.evolution-image,
+.robotics-image {
+  margin-top: 65px;
+  margin-left: 60px;
 }
 
-.cosmology-image, .biology-image, .ecology-image {
-    margin-right: 60px;
+.cosmology-image,
+.biology-image,
+.ecology-image {
+  margin-right: 60px;
 }
 
 .top-image-explore {
-    display: none;
+  display: none;
 }
 
 .top-image-explore-desktop {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-.learn-about-science-minor-container, .for-teachers-minor-container, .for-researchers-minor-container {
-    margin-left: 50px;
-    margin-right: 50px;
+.learn-about-science-minor-container,
+.for-teachers-minor-container,
+.for-researchers-minor-container {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.learn-about-science-flex-container, .for-researchers-flex-container {
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    margin-top: 200px;
+.learn-about-science-flex-container,
+.for-researchers-flex-container {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  margin-top: 200px;
 }
 
 .for-teachers-flex-container {
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    flex-direction: row-reverse;
-    margin-top: 100px;
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  flex-direction: row-reverse;
+  margin-top: 100px;
 }
 
-.image-learn-about-science, .for-teachers-image, .for-researchers-image {
-    width: 400px;
+.image-learn-about-science,
+.for-teachers-image,
+.for-researchers-image {
+  width: 400px;
 }
 
 .for-teachers-image {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
-.learn-about-science-header, .for-teachers-header, .for-researchers-header {
-    margin-top: 0px;
-    max-width: 400px;
-    font-weight: normal;
+.learn-about-science-header,
+.for-teachers-header,
+.for-researchers-header {
+  margin-top: 0px;
+  max-width: 400px;
+  font-weight: normal;
 }
 
-.learn-about-science-text, .for-teachers-text, .for-researchers-text {
-    margin-top: 0px;
-    max-width: 400px;
-    margin-top: 40px;
+.learn-about-science-text,
+.for-teachers-text,
+.for-researchers-text {
+  margin-top: 0px;
+  max-width: 400px;
+  margin-top: 40px;
 }
 
 .night-at-the-museum-background-desktop {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .night-at-the-museum-background-mobile {
-    display: none;
+  display: none;
 }
 
 .h1-night-at-the-museum {
-    font-size: 30px;
-    font-weight: normal;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 .vritual-reality-mobile {
-    display: none;
+  display: none;
 }
 
 .vritual-reality-text-top {
-    max-width: 700px;
-} 
+  max-width: 700px;
+}
 
 .vritual-reality-desktop {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .h1-vritual-reality {
-    font-weight: normal;
-    left: 30px;
-    font-size: 30px;
+  font-weight: normal;
+  left: 30px;
+  font-size: 30px;
 }
 
 .vritual-reality-flex {
-    display: flex;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .jurassic-park-container {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 .vritual-reality-kids-flex-container {
-    margin-right: 300px;
+  margin-right: 300px;
 }
 
 .jurassic-park-image {
-    height: 134px;
+  height: 134px;
 }
 
 .lectures-image-desktop {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .lectures-image {
-    display: none;
+  display: none;
 }
 
 .h1-lectures {
-    font-weight: normal;
-    left: 20px;
+  font-weight: normal;
+  left: 20px;
 }
 
 .lectures-container {
-    display: flex;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.jhon-wiliams-minor-container {
-    margin-left: 100px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px;
+  gap: 100px;
 }
 
 .jhon-wiliams-top-text {
-    margin-bottom: 82px;
-    max-width: 200px;
+  margin-bottom: 82px;
+  max-width: 200px;
 }
 
-.sheila-image, .jhon-wiliams-image {
-    width: 200px;
+.sheila-image,
+.jhon-wiliams-image {
+  width: 200px;
 }
 
-.sheila-text, .jhon-wiliams-text {
-    max-width: 200px;
+.sheila-text,
+.jhon-wiliams-text {
+  max-width: 200px;
 }
 
 .guided-tours-header-image {
-    display: none;
+  display: none;
 }
 
 .h1-guided-tours {
-    font-weight: normal;
-    left: 30px;
-    font-size: 30px;
+  font-weight: normal;
+  left: 30px;
+  font-size: 30px;
 }
 
 .space-and-reptiles-container {
-    display: flex;
+  display: flex;
+  justify-content: center;
 }
 
 .guided-tours-header-image-desktop {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .reptiles-guide-image {
-    height: 250px;
-    width: 370px;
+  height: 250px;
+  width: 370px;
 }
 
 .space-guide-image {
-    width: 370px;
+  width: 370px;
 }
 
 .reptiles-container {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-container {
-    height: 120px;
-    padding: 0px;
+  height: 120px;
+  padding: 0px;
 }
 
 .footer-logo-container {
-    margin-top: 35px;
+  margin-top: 35px;
 }
 
 .footer-adress-container {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .footer-contact-us-container {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 @media only screen and (min-width: 550px) and (max-width: 849px) {
-
-    .time-table-container {
-        display: none;
-    }
+  .time-table-container {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 700px) {
+  .niel-armstrong-picture,
+  .jurassic-park-image,
+  .vritual-reality-kids-image {
+    width: 300px;
+    height: 200px;
+  }
 
-    .niel-armstrong-picture, .jurassic-park-image, .vritual-reality-kids-image {
-        width: 300px;
-        height: 200px;
-    }
+  .niel-armstrong-texts,
+  .jurassic-park-text,
+  .vritual-reality-kids-texts {
+    max-width: 300px;
+  }
 
-    .niel-armstrong-texts, .jurassic-park-text, .vritual-reality-kids-texts {
-        max-width: 300px;
-    }
+  .vritual-reality-kids-flex-container {
+    margin-right: 400px;
+  }
 
-    .vritual-reality-kids-flex-container {
-        margin-right: 400px;
-    }
+  .sheila-image,
+  .jhon-wiliams-image {
+    width: 250px;
+  }
 
-    .sheila-image, .jhon-wiliams-image {
-        width: 250px;
-    }
-    
-    .sheila-text, .jhon-wiliams-text {
-        max-width: 250px;
-    }
-    
-    .jhon-wiliams-top-text {
-        max-width: 250px;
-    }
+  .sheila-text,
+  .jhon-wiliams-text {
+    max-width: 250px;
+  }
 
-    .h1-lectures {
-        font-size: 30px;
-    }
+  .jhon-wiliams-top-text {
+    max-width: 250px;
+  }
+
+  .h1-lectures {
+    font-size: 30px;
+  }
 }
-
 
 @media only screen and (min-width: 850px) {
+  .h1-mobile {
+    font-size: 25px;
+  }
 
-    .h1-mobile {
-        font-size: 25px;
-    } 
+  .home-text {
+    max-width: 830px;
+  }
 
-    .home-text {
-        max-width: 830px;
-    } 
-
-    .visit-us-image, .guided-tour-image, .our-exhibiton-image, .explore-image, .letures-image, .vritual-reality-image, .sheila-Widnall-lecture-image, .night-at-the-museum-image {
+  .visit-us-image,
+  .guided-tour-image,
+  .our-exhibiton-image,
+  .explore-image,
+  .letures-image,
+  .vritual-reality-image,
+  .sheila-Widnall-lecture-image,
+  .night-at-the-museum-image {
     width: 400px;
     margin-right: 40px;
-    }
-        
-    #visit-us-cta, #guided-tours-cta, #our-exhibiton-cta, #explore-cta, #lectures-cta, #vritual-reality-cta, #sheila-Widnall-lecture-cta, #night-at-the-museum-cta {
+  }
+
+  #visit-us-cta,
+  #guided-tours-cta,
+  #our-exhibiton-cta,
+  #explore-cta,
+  #lectures-cta,
+  #vritual-reality-cta,
+  #sheila-Widnall-lecture-cta,
+  #night-at-the-museum-cta {
     margin-right: 40px;
     width: 350px;
-    
-    }
-    
-    .h2-visit-us, .h2-guided-tours, .h3-our-exhibiton, .h3-explore, .h4-lectures, .h5-vritual-reality, .h5-sheila-widnall-lecture, .h6-night-at-the-museum {
+  }
+
+  .h2-visit-us,
+  .h2-guided-tours,
+  .h3-our-exhibiton,
+  .h3-explore,
+  .h4-lectures,
+  .h5-vritual-reality,
+  .h5-sheila-widnall-lecture,
+  .h6-night-at-the-museum {
     font-weight: normal;
-    }
-    
-    .text-visit-us, .text-guided-tours, .our-exhibiton-text, .explore-text, .lectures-text, .vritual-reality-text, .sheila-Widnall-lecture-text, .night-at-the-museum-text {
+  }
+
+  .text-visit-us,
+  .text-guided-tours,
+  .our-exhibiton-text,
+  .explore-text,
+  .lectures-text,
+  .vritual-reality-text,
+  .sheila-Widnall-lecture-text,
+  .night-at-the-museum-text {
     max-width: 250px;
-    }
+  }
 
-    .news-minor-container {
-        width: 830px;
-    }
+  .news-minor-container {
+    width: 830px;
+  }
 
-    .h1-visit-us {
-        bottom: 30px;
-         }
-    
-    .evolution-image, .robotics-image, .cosmology-image, .biology-image, .ecology-image {
-        width: 400px;
-        height: 300px;
-    }
+  .h1-visit-us {
+    bottom: 30px;
+  }
 
-    .ecology-text, .robotics-text, .biology-text, .evolution-text, .cosmology-text {
-        width: 400px;
-    }
+  .evolution-image,
+  .robotics-image,
+  .cosmology-image,
+  .biology-image,
+  .ecology-image {
+    width: 400px;
+    height: 300px;
+  }
 
-    .h1-our-exhibiton {
-        font-size: 50px;
-        left: 30px;
-    }
+  .ecology-text,
+  .robotics-text,
+  .biology-text,
+  .evolution-text,
+  .cosmology-text {
+    width: 400px;
+  }
 
-    .sheila-image, .jhon-wiliams-image {
-        width: 350px;
-    }
-    
-    .sheila-text, .jhon-wiliams-text {
-        max-width: 350px;
-    }
-    
-    .jhon-wiliams-top-text {
-        max-width: 350px;
-        margin-bottom: 65px;
-    }
+  .h1-our-exhibiton {
+    font-size: 50px;
+    left: 30px;
+  }
 
-    .h1-lectures {
-        font-size: 40px;
-    }
+  .sheila-image,
+  .jhon-wiliams-image {
+    width: 350px;
+  }
+
+  .sheila-text,
+  .jhon-wiliams-text {
+    max-width: 350px;
+  }
+
+  .jhon-wiliams-top-text {
+    max-width: 350px;
+    margin-bottom: 65px;
+  }
+
+  .h1-lectures {
+    font-size: 40px;
+  }
 }
-
-

@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Community Science Museum
-        </title>
-        <link rel="stylesheet" href="mobile.css">
-        <style>
-            @import url(desktop.css) (min-width: 551px);
-        </style>
-        <meta name="description" content="Community science musuem is a museum for those who want to learn and reserach science">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>
+
+<head>
+    <title>
+        Community Science Museum
+    </title>
+    <link rel="stylesheet" href="mobile.css">
+    <style>
+        @import url(desktop.css) (min-width: 551px);
+    </style>
+    <meta name="description"
+        content="Community science musuem is a museum for those who want to learn and reserach science">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png"
+                    alt="logo of community science museum"></a>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li class="navigation-underline">Home</li>
+                </a>
+                <a href="visit-us.html">
+                    <li>Visit us</li>
+                </a>
+                <a href="our-exhibiton.html">
+                    <li>Our exhibiton</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="header-mobile">
             <div>
-                <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png" alt="logo of community science museum"></a>
+                <a href="index.html"><img class="logo-mobile" src="logo/Logo-mobile.png"
+                        alt="logo of community science museum"></a>
             </div>
-            <nav>
-                <ul>
-                    <a href="index.html"><li class="navigation-underline">Home</li></a>
-                    <a href="visit-us.html"><li>Visit us</li></a>
-                    <a href="our-exhibiton.html"><li>Our exhibiton</li></a>
-                </ul>
-            </nav>
-            <section>
-                <div class="drop-down-menu-container">
-                    <label class="drop-down-menu" for="drop-down-menu">Menu</label>
-                    <input type="checkbox" id="drop-down-menu">
-                    <div class="menu-container">
-                        <a href="visit-us.html"><li class="li-menu">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-menu">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-menu">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-menu">Explore</li></a>
-                        <a href="lectures.html"><li class="li-menu">Lectures</li></a>
-                        <a href="vritual-reality.html"><li class="li-menu">Vritual reality</li></a>
-                    </div>
+            <div class="drop-down-menu-container-mobile">
+                <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png"
+                        alt=""></label>
+                <input type="checkbox" id="drop-down-menu-mobile">
+                <div class="menu-container-mobile">
+                    <a href="index.html">
+                        <li class="li-menu-mobile">Home</li>
+                    </a>
+                    <a href="visit-us.html">
+                        <li class="li-menu-mobile">Visit us</li>
+                    </a>
+                    <a href="our-exhibiton.html">
+                        <li class="li-menu-mobile">Our exhibiton</li>
+                    </a>
+                    <a href="guided-tours.html">
+                        <li class="li-menu-mobile">Guided tours</li>
+                    </a>
+                    <a href="explore.html">
+                        <li class="li-menu-mobile">Explore</li>
+                    </a>
+                    <a href="lectures.html">
+                        <li class="li-menu-mobile">Lectures</li>
+                    </a>
+                    <a href="vritual-reality.html">
+                        <li class="li-menu-mobile">Vritual reality</li>
+                    </a>
                 </div>
-            </section>
-            <section class="header-mobile">
-                <div>
-                    <a href="index.html"><img class="logo-mobile" src="logo/Logo-mobile.png" alt="logo of community science museum"></a>
-                </div>
-                <div class="drop-down-menu-container-mobile">
-                    <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png" alt=""></label>
-                    <input type="checkbox" id="drop-down-menu-mobile">
-                    <div class="menu-container-mobile">
-                        <a href="index.html"><li class="li-menu-mobile">Home</li></a>
-                        <a href="visit-us.html"><li class="li-menu-mobile">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-menu-mobile">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-menu-mobile">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-menu-mobile">Explore</li></a>
-                        <a href="lectures.html"><li class="li-menu-mobile">Lectures</li></a>
-                        <a href="vritual-reality.html"><li class="li-menu-mobile">Vritual reality</li></a>
-                    </div>
-                </div>
-            </section>
-        </header>
-        <main>
-               <div class="h1-mobile">
-                   <h1>Community science museum</h1>
-               </div>    
-               <div class="home-background-mobile">
-                   <img class="home-image-desktop" src="/images/home-image-desktop.jpg" alt="home picture of the community science museum">   
-                   <img class="home-image-mobile" src="images/museum-kid-mobile.jpg" alt="home picture of the community science museum">
-               </div>
-          </section>
-          <section class="home-text-container">
-              <p class="home-text">Come join us at the Community Science Museum where we’re committed to making science accessible to all. Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself. The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-          </section>
-          <section class="time-table-container">
-              <div class="time-table-minor-container">
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="h1-mobile">
+            <h1>Community science museum</h1>
+        </div>
+        <div class="home-background-mobile">
+            <img class="home-image-desktop" src="/images/home-image-desktop.jpg"
+                alt="home picture of the community science museum">
+            <img class="home-image-mobile" src="images/museum-kid-mobile.jpg"
+                alt="home picture of the community science museum">
+        </div>
+        </section>
+        <section class="home-text-container">
+            <p class="home-text">Come join us at the Community Science Museum where we’re committed to making science
+                accessible to all. Over the course of human history, science has developed from our early understanding
+                of fire, wind, water, and earth to exploring everything from galaxies far away to the very building
+                blocks of life itself. The aim of our museum is to create a space where everyone can experience the
+                wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the
+                world around us.</p>
+        </section>
+        <section class="time-table-container">
+            <div class="time-table-minor-container">
                 <div class="time-container">
                     <p class="time-table-text-header">Opening hours</p>
                     <p class="time-table-text">Monday: Closed</p>
@@ -88,109 +107,132 @@
                     <p class="time-table-text">40 nok for students</p>
                     <p class="time-table-text">free entrance 0 - 15 years</p>
                 </div>
-              <div class="school-price-container">
-                <p class="time-table-text-header">School price</p>
-                <p class="time-table-text">150 nok for each class</p>
-            </div>
+                <div class="school-price-container">
+                    <p class="time-table-text-header">School price</p>
+                    <p class="time-table-text">150 nok for each class</p>
+                </div>
             </div>
         </section>
-      <section>
-          <section class="visit-us-container">
-              <div class="visit-us">
-                  <div class="center">
-                      <a href="visit-us.html"><img class="visit-us-image" src="images/visit-us-mobile.jpg" alt="visit us picture"></a>
-                      <h2 class="h2-visit-us">Visit us</h2>
-                      <p class="text-visit-us">Read more about opening times,adress and tickets</p>
-                      <a href="visit-us.html"><input type="button" id="visit-us-cta" value="SEE MORE" alt="Visit us button"></a>
+        <section>
+            <section class="visit-us-container">
+                <div class="visit-us">
+                    <div class="center">
+                        <a href="visit-us.html"><img class="visit-us-image" src="images/visit-us-mobile.jpg"
+                                alt="visit us picture"></a>
+                        <h2 class="h2-visit-us">Visit us</h2>
+                        <p class="text-visit-us">Read more about opening times,adress and tickets</p>
+                        <a href="visit-us.html"><input type="button" id="visit-us-cta" value="SEE MORE"
+                                alt="Visit us button"></a>
+                    </div>
                 </div>
-              </div>
-              <div class="guided-tours">
-                  <div class="center">
-                      <a href="guided-tours.html"><img class="guided-tour-image" src="images/guided-tours-mobile.jpg" alt="piture for guided tours"></a>
-                      <h2 class="h2-guided-tours">Guided tours</h2>
-                      <p class="text-guided-tours">Join one of our fantastic guids Michael Miller and Ed Smith around the museum</p>
-                      <a href="guided-tours.html"><input type="button" id="guided-tours-cta" value="SEE MORE" alt="guided tours button"></a>
-                  </div>
-              </div>
-          </section>
-          <section class="our-exhibiton-container">
-              <div class="our-exhibiton">
-                  <div class="center">
-                      <a href="our-exhibiton.html"><img class="our-exhibiton-image" src="images/Our exhibiton.jpg" alt="picture for our exhibiton"></a>
-                      <h3 class="h3-our-exhibiton">Our exhibiton</h3>
-                      <p class="our-exhibiton-text">Learn more about our exhibiton and what we have to offer in the museum. </p>
-                      <a href="our-exhibiton.html"><input type="button" id="our-exhibiton-cta" value="SEE MORE" alt="our exhibiton button"></a>
-                  </div>
-              </div>
-              <div class="explore">
-                  <div class="center">
-                     <a href="explore.html"><img class="explore-image" src="images/Research.jpg" alt="picture for explore"></a>
-                     <h3 class="h3-explore">Explore</h3>
-                     <p class="explore-text">Do you want to learn more about science? or maby you want to research or teach science?</p>
-                     <a href="explore.html"><input type="button" id="explore-cta" value="SEE MORE" alt="explore button"></a>
-                  </div>
-              </div>
+                <div class="guided-tours">
+                    <div class="center">
+                        <a href="guided-tours.html"><img class="guided-tour-image" src="images/guided-tours-mobile.jpg"
+                                alt="piture for guided tours"></a>
+                        <h2 class="h2-guided-tours">Guided tours</h2>
+                        <p class="text-guided-tours">Join one of our fantastic guids Michael Miller and Ed Smith around
+                            the museum</p>
+                        <a href="guided-tours.html"><input type="button" id="guided-tours-cta" value="SEE MORE"
+                                alt="guided tours button"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="our-exhibiton-container">
+                <div class="our-exhibiton">
+                    <div class="center">
+                        <a href="our-exhibiton.html"><img class="our-exhibiton-image" src="images/Our exhibiton.jpg"
+                                alt="picture for our exhibiton"></a>
+                        <h3 class="h3-our-exhibiton">Our exhibiton</h3>
+                        <p class="our-exhibiton-text">Learn more about our exhibiton and what we have to offer in the
+                            museum. </p>
+                        <a href="our-exhibiton.html"><input type="button" id="our-exhibiton-cta" value="SEE MORE"
+                                alt="our exhibiton button"></a>
+                    </div>
+                </div>
+                <div class="explore">
+                    <div class="center">
+                        <a href="explore.html"><img class="explore-image" src="images/Research.jpg"
+                                alt="picture for explore"></a>
+                        <h3 class="h3-explore">Explore</h3>
+                        <p class="explore-text">Do you want to learn more about science? or maby you want to research or
+                            teach science?</p>
+                        <a href="explore.html"><input type="button" id="explore-cta" value="SEE MORE"
+                                alt="explore button"></a>
+                    </div>
+                </div>
             </section>
             <section>
-                  <div class="lectures">
-                      <div class="center">
-                          <a href="lectures.html"><img class="letures-image" src="images/Lectures.jpg" alt="picture for lectures"></a>
-                          <h4 class="h4-lectures">Lectures</h4>
-                          <p class="lectures-text">click here and see what lectures we have at the museum this month. </p>
-                          <a href="lectures.html"><input type="button" id="lectures-cta" value="SEE MORE" alt="lectures button"></a>
-                      </div>
-                  </div>
+                <div class="lectures">
+                    <div class="center">
+                        <a href="lectures.html"><img class="letures-image" src="images/Lectures.jpg"
+                                alt="picture for lectures"></a>
+                        <h4 class="h4-lectures">Lectures</h4>
+                        <p class="lectures-text">click here and see what lectures we have at the museum this month. </p>
+                        <a href="lectures.html"><input type="button" id="lectures-cta" value="SEE MORE"
+                                alt="lectures button"></a>
+                    </div>
+                </div>
             </section>
             <section class="news-container">
                 <div class="news-minor-container">
-                  <h5 class="news-text">News</h5>
+                    <h5 class="news-text">News</h5>
                 </div>
             </section>
             <section class="vritual-reality-container">
                 <div class="vritual-reality">
                     <div class="center">
-                       <a href="vritual-reality.html"><img class="vritual-reality-image" src="images/Virtual-reality.jpg" alt="picture for vritual reality"></a>
-                       <h6 class="h5-vritual-reality">Vritual reality</h6>
-                       <p class="vritual-reality-text">Explore space travels and dinosaurs close up in virtual reality.</p>
-                       <a href="vritual-reality.html"><input type="button" id="vritual-reality-cta" value="SEE MORE" alt="vritual reality button"></a>
+                        <a href="vritual-reality.html"><img class="vritual-reality-image"
+                                src="images/Virtual-reality.jpg" alt="picture for vritual reality"></a>
+                        <h6 class="h5-vritual-reality">Vritual reality</h6>
+                        <p class="vritual-reality-text">Explore space travels and dinosaurs close up in virtual reality.
+                        </p>
+                        <a href="vritual-reality.html"><input type="button" id="vritual-reality-cta" value="SEE MORE"
+                                alt="vritual reality button"></a>
                     </div>
                 </div>
                 <div class="sheila-Widnall-lecture">
                     <div class="center">
-                        <a href="lectures.html"><img class="sheila-Widnall-lecture-image" src="images/sheila-lecture.jpg" alt="picture for sheila widnall lecture"></a>
+                        <a href="lectures.html"><img class="sheila-Widnall-lecture-image"
+                                src="images/sheila-lecture.jpg" alt="picture for sheila widnall lecture"></a>
                         <h5 class="h5-sheila-widnall-lecture">Sheila Widnall lecture</h5>
-                        <p class="sheila-Widnall-lecture-text">Learn about development of aeronautics and where the future lies in this exciting ‘space’.</p>
-                        <a href="lectures.html"><input type="button" id="sheila-Widnall-lecture-cta" value="SEE MORE" alt="sheila Widnall lecture button"></a>
+                        <p class="sheila-Widnall-lecture-text">Learn about development of aeronautics and where the
+                            future lies in this exciting ‘space’.</p>
+                        <a href="lectures.html"><input type="button" id="sheila-Widnall-lecture-cta" value="SEE MORE"
+                                alt="sheila Widnall lecture button"></a>
                     </div>
                 </div>
             </section>
             <section class="night-at-the-museum-container">
                 <div class="night-at-the-museum">
                     <div class="center">
-                         <a href="night-at-the-museum.html"><img class="night-at-the-museum-image" src="images/Night-museum.jpg" alt="picture for night at the museum"></a>
-                         <h6 class="h6-night-at-the-museum">Night at the museum</h6>
-                         <p class="night-at-the-museum-text">Are you brave enough to sleep with our dinosaur collection?</p>
-                         <a href="night-at-the-museum.html"><input type="button" id="night-at-the-museum-cta" value="SEE MORE" alt="night at the museum button"></a>
+                        <a href="night-at-the-museum.html"><img class="night-at-the-museum-image"
+                                src="images/Night-museum.jpg" alt="picture for night at the museum"></a>
+                        <h6 class="h6-night-at-the-museum">Night at the museum</h6>
+                        <p class="night-at-the-museum-text">Are you brave enough to sleep with our dinosaur collection?
+                        </p>
+                        <a href="night-at-the-museum.html"><input type="button" id="night-at-the-museum-cta"
+                                value="SEE MORE" alt="night at the museum button"></a>
                     </div>
                 </div>
             </section>
-        </main>
-        <footer>
-            <section class="footer-container">
-                <div class="footer-logo-container">
-                   <img src="images/Logo-desktop.png" alt="logo of community science museum"> 
-                </div>
-                <div class="footer-adress-container">
-                    <p class="footer-text-header">Adress</p>
-                    <p>The museum is located at</p>
-                    <p>Skoglia 60D 1812 Askim</p>
-                </div>
-                <div class="footer-contact-us-container">
-                    <p class="footer-text-header">Contac us</p>
-                    <p>Phone: 45436203</p>
-                    <p>Email: Csm@example.com</p>
-                </div>
-            </section>
-        </footer>
-    </body>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <div class="footer-logo-container">
+                <img src="images/Logo-desktop.png" alt="logo of community science museum">
+            </div>
+            <div class="footer-adress-container">
+                <p class="footer-text-header">Adress</p>
+                <p>The museum is located at</p>
+                <p>Skoglia 60D 1812 Askim</p>
+            </div>
+            <div class="footer-contact-us-container">
+                <p class="footer-text-header">Contac us</p>
+                <p>Phone: 45436203</p>
+                <p>Email: Csm@example.com</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
 </html>

@@ -1,112 +1,133 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Community Science Museum
-        </title>
-        <link rel="stylesheet" href="mobile.css">
-        <style>
-            @import url(desktop.css) (min-width: 551px);
-        </style>
-        <meta name="description" content="Community science musuem is a museum for those who want to learn and reserach science">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>
+
+<head>
+    <title>
+        Community Science Museum
+    </title>
+    <link rel="stylesheet" href="mobile.css">
+    <style>
+        @import url(desktop.css) (min-width: 551px);
+    </style>
+    <meta name="description"
+        content="Community science musuem is a museum for those who want to learn and reserach science">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png"
+                    alt="logo of community science museum"></a>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="visit-us.html">
+                    <li class="navigation-underline">Visit us</li>
+                </a>
+                <a href="our-exhibiton.html">
+                    <li>Our exhibiton</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="header-mobile">
             <div>
-                <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png" alt="logo of community science museum"></a>
+                <a href="index.html"><img class="logo-mobile" src="logo/Logo-mobile.png"
+                        alt="logo of community science museum"></a>
             </div>
-            <nav>
-                <ul>
-                    <a href="index.html"><li>Home</li></a>
-                    <a href="visit-us.html"><li class="navigation-underline">Visit us</li></a>
-                    <a href="our-exhibiton.html"><li>Our exhibiton</li></a>
-                </ul>
-            </nav>
-            <section>
-                <div class="drop-down-menu-container">
-                    <label class="drop-down-menu" for="drop-down-menu">Menu</label>
-                    <input type="checkbox" id="drop-down-menu">
-                    <div class="menu-container">
-                        <a href="visit-us.html"><li class="li-menu">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-menu">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-menu">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-menu">Explore</li></a>
-                        <a href="lectures.html"><li class="li-menu">Lectures</li></a>
-                        <a href="vritual-reality.html"><li class="li-menu">Vritual reality</li></a>
-                    </div>
+            <div class="drop-down-menu-container-mobile">
+                <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png"
+                        alt=""></label>
+                <input type="checkbox" id="drop-down-menu-mobile">
+                <div class="menu-container-mobile">
+                    <a href="index.html">
+                        <li class="li-menu-mobile">Home</li>
+                    </a>
+                    <a href="visit-us.html">
+                        <li class="li-menu-mobile">Visit us</li>
+                    </a>
+                    <a href="our-exhibiton.html">
+                        <li class="li-menu-mobile">Our exhibiton</li>
+                    </a>
+                    <a href="guided-tours.html">
+                        <li class="li-menu-mobile">Guided tours</li>
+                    </a>
+                    <a href="explore.html">
+                        <li class="li-menu-mobile">Explore</li>
+                    </a>
+                    <a href="lectures.html">
+                        <li class="li-menu-mobile">Lectures</li>
+                    </a>
+                    <a href="vritual reality">
+                        <li class="li-menu-mobile">Vritual reality</li>
+                    </a>
                 </div>
-            </section>
-            <section class="header-mobile">
-                <div>
-                    <a href="index.html"><img class="logo-mobile" src="logo/Logo-mobile.png" alt="logo of community science museum"></a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="visit-us-top-image-container">
+            <div class="h1-text-container">
+                <img class="visit-us-desktop" src="images/visit-us-desktop.jpg" alt="picture of visit us">
+                <img class="visit-us-top-image" src="images/visit-us.jpg" alt="piture of visit us">
+                <div class="h1-visit-us">
+                    <h1 class="h1-visit-us-text">Visit us</h1>
                 </div>
-                <div class="drop-down-menu-container-mobile">
-                    <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png" alt=""></label>
-                    <input type="checkbox" id="drop-down-menu-mobile">
-                    <div class="menu-container-mobile">
-                        <a href="index.html"><li class="li-menu-mobile">Home</li></a>
-                        <a href="visit-us.html"><li class="li-menu-mobile">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-menu-mobile">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-menu-mobile">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-menu-mobile">Explore</li></a>
-                        <a href="lectures.html"><li class="li-menu-mobile">Lectures</li></a>
-                        <a href="vritual reality"><li class="li-menu-mobile">Vritual reality</li></a>
-                    </div>
+            </div>
+            <div class="visit-us-text-container-large">
+                <div class="visit-us-text-container">
+                    <h2 class="h2-location">Location</h2>
+                    <p class="visit-us-text">The museum is located at :</p>
+                    <p class="visit-us-text">Skoglia 60D 1812 Askim</p>
+                    <h3 class="h3-admission">Admission</h3>
+                    <p class="visit-us-text">The entrance is free for all.</p>
+                    <p class="visit-us-text">There are guided tours of the museum that leave every hour. These tours are
+                        70 NOK per person and include a handy printed guide of the museum. If you would like to organise
+                        a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
+                    <h4 class="h4-Hours">Hours</h4>
+                    <p class="visit-us-text">Monday: Closed</p>
+                    <p class="visit-us-text">Tuesday: 10:00 – 16:00</p>
+                    <p class="visit-us-text">Wednesday: 10:00 – 16:00</p>
+                    <p class="visit-us-text">Thursday: 10:00 – 16:00</p>
+                    <p class="visit-us-text">Friday: 10:00 – 19:00</p>
+                    <p class="visit-us-text">Saturday: 9:00 – 16:00</p>
+                    <p class="visit-us-text">Sunday: 9:00 – 13:00</p>
+                    <h5 class="h5-accessibility">Accessibility</h5>
+                    <p class="visit-us-text">The museum has wheelchair accessibility ramps. It also has audio guides and
+                        braille display signs for the visually impaired.</p>
+                    <h6 class="h6-food-and-drink">Food and drink</h6>
+                    <p class="visit-us-text">There is a café attached to the museum where you can get light lunches,
+                        soft drinks, coffee, snacks and more. Shop Our shop offers a range of memorabilia from the
+                        museum as well as great gifts and activity packs that allow you to continue to explore science
+                        even after you’ve left the museum.</p>
+                    <p class="h7-shop">Shop</p>
+                    <p class="visit-us-text">Our shop offers a range of memorabilia from the museum as well as great
+                        gifts and activity packs that allow you to continue to explore science even after you’ve left
+                        the museum.</p>
                 </div>
-            </section>
-        </header>
-        <main>
-            <section class="visit-us-top-image-container">
-                <div class="h1-text-container">
-                    <img class="visit-us-desktop" src="images/visit-us-desktop.jpg" alt="picture of visit us">
-                    <img class="visit-us-top-image" src="images/visit-us.jpg" alt="piture of visit us">
-                    <div class="h1-visit-us">
-                        <h1 class="h1-visit-us-text">Visit us</h1>
-                    </div>
-                </div>
-                <div class="visit-us-text-container-large">
-                    <div class="visit-us-text-container">
-                        <h2 class="h2-location">Location</h2>
-                         <p class="visit-us-text">The museum is located at :</p>
-                         <p class="visit-us-text">Skoglia 60D 1812 Askim</p>
-                         <h3 class="h3-admission">Admission</h3>
-                         <p class="visit-us-text">The entrance is free for all.</p>
-                         <p class="visit-us-text">There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-                         <h4 class="h4-Hours">Hours</h4>
-                         <p class="visit-us-text">Monday: Closed</p>
-                         <p class="visit-us-text">Tuesday: 10:00 – 16:00</p>
-                         <p class="visit-us-text">Wednesday: 10:00 – 16:00</p>
-                         <p class="visit-us-text">Thursday: 10:00 – 16:00</p>
-                         <p class="visit-us-text">Friday: 10:00 – 19:00</p>
-                         <p class="visit-us-text">Saturday: 9:00 – 16:00</p>
-                         <p class="visit-us-text">Sunday: 9:00 – 13:00</p>
-                         <h5 class="h5-accessibility">Accessibility</h5>
-                         <p class="visit-us-text">The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
-                         <h6 class="h6-food-and-drink">Food and drink</h6>
-                         <p class="visit-us-text">There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more. Shop Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-                         <p class="h7-shop">Shop</p>
-                         <p class="visit-us-text">Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <section class="footer-container">
-                <div class="footer-logo-container">
-                   <img src="images/Logo-desktop.png" alt="logo of community science museum"> 
-                </div>
-                <div class="footer-adress-container">
-                    <p class="footer-text-header">Adress</p>
-                    <p>The museum is located at</p>
-                    <p>Skoglia 60D 1812 Askim</p>
-                </div>
-                <div class="footer-contact-us-container">
-                    <p class="footer-text-header">Contac us</p>
-                    <p>Phone: 45436203</p>
-                    <p>Email: Csm@example.com</p>
-                </div>
-            </section> 
-        </footer>
-    </body>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <div class="footer-logo-container">
+                <img src="images/Logo-desktop.png" alt="logo of community science museum">
+            </div>
+            <div class="footer-adress-container">
+                <p class="footer-text-header">Adress</p>
+                <p>The museum is located at</p>
+                <p>Skoglia 60D 1812 Askim</p>
+            </div>
+            <div class="footer-contact-us-container">
+                <p class="footer-text-header">Contac us</p>
+                <p>Phone: 45436203</p>
+                <p>Email: Csm@example.com</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
 </html>

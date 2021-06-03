@@ -1,107 +1,129 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Community Science Museum
-        </title>
-        <link rel="stylesheet" href="mobile.css">
-        <style>
-            @import url(desktop.css) (min-width: 551px);
-        </style>
-        <meta name="description" content="Community science musuem is a museum for those who want to learn and reserach science">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    </head>
-    <body>
-        <header>
+
+<head>
+    <title>
+        Community Science Museum
+    </title>
+    <link rel="stylesheet" href="mobile.css">
+    <style>
+        @import url(desktop.css) (min-width: 551px);
+    </style>
+    <meta name="description"
+        content="Community science musuem is a museum for those who want to learn and reserach science">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png"
+                    alt="logo of community science museum"></a>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="visit-us.html">
+                    <li>Visit us</li>
+                </a>
+                <a href="our-exhibiton.html">
+                    <li>Our exhibiton</li>
+                </a>
+            </ul>
+        </nav>
+        <section class="header-mobile">
             <div>
-                <a href="index.html"><img class="logo-desktop" src="images/Logo-desktop.png" alt="logo of community science museum"></a>
+                <a href="index.html"><img class="logo-mobile" src="logo/Logo-mobile.png"
+                        alt="logo of community science museum"></a>
             </div>
-            <nav>
-                <ul>
-                    <a href="index.html"><li>Home</li></a>
-                    <a href="visit-us.html"><li>Visit us</li></a>
-                    <a href="our-exhibiton.html"><li>Our exhibiton</li></a>
-                </ul>
-            </nav>
-            <section>
-                <div class="drop-down-menu-container">
-                    <label class="drop-down-menu" for="drop-down-menu">Menu</label>
-                    <input type="checkbox" id="drop-down-menu">
-                    <div class="menu-container">
-                        <a href="visit-us.html"><li class="li-menu">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-menu">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-menu">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-menu">Explore</li></a>
-                        <a href="lectures.html"><li class="li-menu">Lectures</li></a>
-                        <a href="vritual-reality.html"><li class="li-menu">Vritual reality</li></a>
-                    </div>
+            <div class="drop-down-menu-container-mobile">
+                <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png"
+                        alt=""></label>
+                <input type="checkbox" id="drop-down-menu-mobile">
+                <div class="menu-container-mobile">
+                    <a href="index.html">
+                        <li class="li-menu-mobile">Home</li>
+                    </a>
+                    <a href="visit-us.html">
+                        <li class="li-menu-mobile">Visit us</li>
+                    </a>
+                    <a href="our-exhibiton.html">
+                        <li class="li-menu-mobile">Our exhibiton</li>
+                    </a>
+                    <a href="guided-tours.html">
+                        <li class="li-menu-mobile">Guided tours</li>
+                    </a>
+                    <a href="explore.html">
+                        <li class="li-menu-mobile">Explore</li>
+                    </a>
+                    <a href="lectures.html">
+                        <li class="li-menu-mobile">Lectures</li>
+                    </a>
+                    <a href="vritual reality">
+                        <li class="li-menu-mobile">Vritual reality</li>
+                    </a>
                 </div>
-            </section>
-            <section class="header-mobile">
-                <div>
-                    <a href="index.html"><img class="logo-mobile" src="logo/Logo-mobile.png" alt="logo of community science museum"></a>
-                </div>
-                <div class="drop-down-menu-container-mobile">
-                    <label class="hamburger-icon" for="drop-down-menu-mobile"><img src="icons/hamburger-menu.png" alt=""></label>
-                    <input type="checkbox" id="drop-down-menu-mobile">
-                    <div class="menu-container-mobile">
-                        <a href="index.html"><li class="li-menu-mobile">Home</li></a>
-                        <a href="visit-us.html"><li class="li-menu-mobile">Visit us</li></a>
-                        <a href="our-exhibiton.html"><li class="li-menu-mobile">Our exhibiton</li></a>
-                        <a href="guided-tours.html"><li class="li-menu-mobile">Guided tours</li></a>
-                        <a href="explore.html"><li class="li-menu-mobile">Explore</li></a>
-                        <a href="lectures.html"><li class="li-menu-mobile">Lectures</li></a>
-                        <a href="vritual reality"><li class="li-menu-mobile">Vritual reality</li></a>
-                    </div>
-                </div>
-        </header>
-        <main>
-            <section>
-                <div class="night-at-the-museum-background-container">
-                    <img class="night-at-the-museum-background-desktop" src="images/night-museum-desktop.jpg" alt="header picture of night at the museum">
-                    <img class="night-at-the-museum-background-mobile" src="images/Night-museum.jpg" alt="header picture for night at the museum">
-                    <h1 class="h1-night-at-the-museum">Night at the museum</h1>
-                </div>
-            </section>
-            <section class="night-at-the-museum-top-text-container">
-                <p class="night-at-the-museum-top-text">Get your family together and join our guide Michael Miller for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science. </p>
-            </section>
-            <section class="museum-container">
-                <div class="museum-minor-container">
-                    <img class="night-at-the-museum-picture" src="images/kids-fun.jpg" alt="picture for night at the museum">
-                    <h2 class="h-night-at-the-museum">Info</h2>
-                    <p class="night-at-the-museum-texts">The night will begin with some vritual reality fun and space games followed by a guided tour around the museum where Michael will explain every thing from the evoloution of dinosaours to how our galaxy is shaped. At the end of the day we will land at our dinosaur collection where we will be for the night eating some snacks while we have a quiz about what we learned in the tour. There is even a price for the winnner.</p>
-                    <h3 class="h-night-at-the-museum">Dates</h3>
-                    <p class="night-at-the-museum-texts">25 - 26 December: 18:00 - 10:00</p>
-                    <p class="night-at-the-museum-texts">26 - 27 December: 18:00 - 10:00</p>
-                    <h4 class="h-night-at-the-museum">Price</h4>
-                    <p class="night-at-the-museum-texts">70 nok per person</p>
-                    <p class="night-at-the-museum-texts">150 per person with break fast</p>
-                    <h5 class="h-night-at-the-museum">Family package</h5>
-                    <p class="night-at-the-museum-texts">150 nok per family</p>
-                    <p class="night-at-the-museum-texts">270 nok per family  with  breakfast</p>
-                    <h6 class="h-night-at-the-museum">Contact us for booking</h6>
-                    <p class="night-at-the-museum-texts">Phone: 45436203</p>
-                    <p class="night-at-the-museum-texts">Email: Csm@example.com</p>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <section class="footer-container">
-                <div class="footer-logo-container">
-                   <img src="images/Logo-desktop.png" alt="logo of community science museum"> 
-                </div>
-                <div class="footer-adress-container">
-                    <p class="footer-text-header">Adress</p>
-                    <p>The museum is located at</p>
-                    <p>Skoglia 60D 1812 Askim</p>
-                </div>
-                <div class="footer-contact-us-container">
-                    <p class="footer-text-header">Contac us</p>
-                    <p>Phone: 45436203</p>
-                    <p>Email: Csm@example.com</p>
-                </div>
-            </section>
-        </footer>
-    </body>
+            </div>
+    </header>
+    <main>
+        <section>
+            <div class="night-at-the-museum-background-container">
+                <img class="night-at-the-museum-background-desktop" src="images/night-museum-desktop.jpg"
+                    alt="header picture of night at the museum">
+                <img class="night-at-the-museum-background-mobile" src="images/Night-museum.jpg"
+                    alt="header picture for night at the museum">
+                <h1 class="h1-night-at-the-museum">Night at the museum</h1>
+            </div>
+        </section>
+        <section class="night-at-the-museum-top-text-container">
+            <p class="night-at-the-museum-top-text">Get your family together and join our guide Michael Miller for an
+                exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own
+                sleeping bag and get ready to rough it as we go exploring the wonders of science. </p>
+        </section>
+        <section class="museum-container">
+            <div class="museum-minor-container">
+                <img class="night-at-the-museum-picture" src="images/kids-fun.jpg"
+                    alt="picture for night at the museum">
+                <h2 class="h-night-at-the-museum">Info</h2>
+                <p class="night-at-the-museum-texts">The night will begin with some vritual reality fun and space games
+                    followed by a guided tour around the museum where Michael will explain every thing from the
+                    evoloution of dinosaours to how our galaxy is shaped. At the end of the day we will land at our
+                    dinosaur collection where we will be for the night eating some snacks while we have a quiz about
+                    what we learned in the tour. There is even a price for the winnner.</p>
+                <h3 class="h-night-at-the-museum">Dates</h3>
+                <p class="night-at-the-museum-texts">25 - 26 December: 18:00 - 10:00</p>
+                <p class="night-at-the-museum-texts">26 - 27 December: 18:00 - 10:00</p>
+                <h4 class="h-night-at-the-museum">Price</h4>
+                <p class="night-at-the-museum-texts">70 nok per person</p>
+                <p class="night-at-the-museum-texts">150 per person with break fast</p>
+                <h5 class="h-night-at-the-museum">Family package</h5>
+                <p class="night-at-the-museum-texts">150 nok per family</p>
+                <p class="night-at-the-museum-texts">270 nok per family with breakfast</p>
+                <h6 class="h-night-at-the-museum">Contact us for booking</h6>
+                <p class="night-at-the-museum-texts">Phone: 45436203</p>
+                <p class="night-at-the-museum-texts">Email: Csm@example.com</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <div class="footer-logo-container">
+                <img src="images/Logo-desktop.png" alt="logo of community science museum">
+            </div>
+            <div class="footer-adress-container">
+                <p class="footer-text-header">Adress</p>
+                <p>The museum is located at</p>
+                <p>Skoglia 60D 1812 Askim</p>
+            </div>
+            <div class="footer-contact-us-container">
+                <p class="footer-text-header">Contac us</p>
+                <p>Phone: 45436203</p>
+                <p>Email: Csm@example.com</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
 </html>
